@@ -17,8 +17,8 @@ class Showcase extends Component {
  
         <div className="showCase__position">
           <a href="#" className="showCase__research">Research</a>
-          <a href="#" className="showCase__research showCase__med">Research</a>
-          <a href="#" className="showCase__research showCase__kind">Research</a>          
+          <a href="#" className="showCase__research showCase__med">Treatment Support</a>
+          <a href="#" className="showCase__research showCase__kind">Information By Type</a>          
         </div> 
 
         <img className="showCase__img" src={Show} alt=""></img>  

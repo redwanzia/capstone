@@ -1,0 +1,28 @@
+.form{
+  padding: 64px;
+  padding-left: 64px;
+  background-color: #eee;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+  transform: skew(-10deg);
+  margin-top: 100px;
+
+  &__group{
+    margin-bottom: 20px; 
+  }
+  &__lable{
+    display: block;
+    margin-bottom: 5px;
+  }
+  &__input,
+  &__textArea{
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  &__textArea{
+    height: 200px;
+  }
+}
