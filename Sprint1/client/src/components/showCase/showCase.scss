@@ -1,0 +1,88 @@
+@import '../../styles/Base.scss';
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Lato:300,400,700i,900&display=swap');
+
+
+.showCase{
+  margin-bottom: 100px; 
+  
+
+  &__img{  
+    height: 95vh;  
+    width: 100%;
+    opacity: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%)
+  }
+  &__position{
+    width: 100%;
+    position: absolute ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 200px 0 0; 
+  }
+
+  &__research{
+    font-family: "Cinzel",sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    color: #777; 
+    position: relative;
+    top: 100px;    
+    text-decoration: none;
+    letter-spacing: 8px;
+    animation-name: moveLeft;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+  }
+  &__med{
+   
+    animation-name: moveRight;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+  }
+  &__kind{
+
+    animation-name: moveLeft;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+  }
+
+  &__composition{
+    position: absolute;
+    z-index: 10;
+
+  
+  }
+
+  &__jesseca{
+    position: relative;
+    width: 350px;
+    box-shadow:  32px 10px 30px rgba($color: black, $alpha: .5);
+    border-radius: 3px;
+    bottom: 800px;
+    left: 80px;
+
+  }
+  &__henry{
+    position: relative;
+    width: 400px;
+    box-shadow: 32px 10px 30px rgba($color: black, $alpha: .5);
+    border-radius: 3px;
+    bottom: 700px;
+    left: -10px;
+  }
+  &__kaitlin{
+    position: relative;
+    width: 350px;
+    box-shadow: 32px 10px 30px rgba($color: black, $alpha: .5);
+    border-radius: 4px;
+    bottom: 500px;
+    left: -575px;
+ 
+  }
+
+
+}

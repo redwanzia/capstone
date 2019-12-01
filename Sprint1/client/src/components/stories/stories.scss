@@ -1,0 +1,32 @@
+@import '../../styles/Base.scss';
+
+
+.stories{
+  padding: 64px;
+  padding-left: 116px;
+  background-color: #eee;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+  transform: skew(-12deg);
+  & > * {
+
+    transform: skew(12deg);
+  }
+
+  &__img{
+
+    height: 100%;
+  }
+  &__shape{
+    width: 100px;
+    height:100px;
+    background-color: red;
+    float: left;
+    // -webkit-shape-outside: circle(50% at 50% 50%);
+    // shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-30px) skew(12deg);
+  }
+}

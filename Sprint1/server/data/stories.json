@@ -2,16 +2,24 @@
   {
     "id" : 1,
     "name" : "Henry",
-    "story" : "lorem500"
+    "type" : "Leukemia",
+    "img": "https://ysm-res.cloudinary.com/image/upload/c_fill,f_auto,q_auto:best,w_660/v1/websites4/live-prod/cancer/patient/care/stories/PrivateDownload_Henry%20Baker_222100_12343_v2.jpg",
+    "story" : "Jenna and Brendan Baker were faced with the most difficult challenge of their life when their seemingly healthy two year old son was diagnosed with cancer.  He went to the pediatrician with a fever that was not responding to the normal remedies. A blood test raised the suspicion for cancer and immediately Henry was sent to the Emergency Department at Yale New Haven Children’s Hospital where doctors confirmed his diagnosis.  Acute lymphoblastic leukemia (ALL) they were told, which at the time meant nothing more to them than the fact that their son was sick, and they were in for the fight of their lives. "
   },
   {
     "id" : 2,
     "name" : "Kaitlin",
-    "story" : "lorem600"
+    "type" : "Brain Cancer",
+    "img":  "https://ysm-res.cloudinary.com/image/upload/c_fill,f_auto,q_auto:best,w_660/v1/websites4/live-prod/cancer/patient/care/stories/kaitlin%20summary_371056_12343_v1.jpg",
+    "story" : "In the summer of 2014, during her last months of pregnancy, Kaitlin Eppinger began experiencing severe headaches and migraines.  Her OBGYN prescribed medication and the headaches gradually went away, but returned soon after the birth of her daughter.  Again, she attributed them to the pregnancy and hormonal changes.  When the headaches persisted, she had blood work done that revealed she had Lyme disease.  She received treatment and started to feel better, but was still not 100%.  Usually a very active person, especially in the summer months, she noticed a lack of energy along with some new symptoms; body tingling and blurred vision that would come and go.  She thought these symptoms might be related to the Lyme disease, but in autumn of that year, her doctor suggested an MRI of her brain just to be safe, which was performed at her local hospital. "
   },
   {
     "id" : 1,
     "name" : "Jessica",
-    "story" : "lorem500"
+    "type" : "Breast Cancer",
+    "img" : "https://ysm-res.cloudinary.com/image/upload/c_fill,f_auto,q_auto:best,w_660/v1/websites4/live-prod/cancer/patient/care/stories/jesseca%202_371059_12343_v1.jpg",
+    "story" : "Jesseca has had many small non-cancerous lumps  in her breasts, so she was used to going to Smilow Cancer Hospital to be monitored every six months with mammograms and ultrasound tests. When she felt a lump in her left breast in November 2013, she fully expected to be told she had another adenoma. But this time, the radiologist told her something different. She needed a biopsy. Difficult news came back … she had aggressive Stage IIA cancer
+
+    Jesseca spent a tortured week worrying before her scheduled appointment with Brigid Killelea, MD, Assistant Professor of Surgery at The Breast Center at Smilow Cancer Hospital."
   }
 ]
