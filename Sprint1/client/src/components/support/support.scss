@@ -1,0 +1,60 @@
+.support{
+  // position: relative;
+  padding: 64px;
+  padding-left: 64px;
+  background-color: #eee;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+
+  margin-top: 100px;
+
+  &__group{
+    margin-bottom: 72px; 
+    display: flex;
+  }
+  &__heading{
+margin-bottom: 24px;
+    
+  }
+  &__img{
+    // position: absolute;
+    // left: 110px;
+    width: 32px;
+  }
+  &__input{
+    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  &__label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  &__cardFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  }
+  &__card{
+    padding: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+
+  }
+  &__cardHead, &__cardImg, &__cardBtn{
+  margin-bottom: 24px;
+
+  }
+  &__cardImg{
+    width: 100%;
+    padding: 5px;
+    
+  }
+
+}
