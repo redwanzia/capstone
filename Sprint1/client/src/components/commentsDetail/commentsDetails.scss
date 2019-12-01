@@ -1,0 +1,64 @@
+.commentsDetail{
+  padding: 64px;
+  padding-left: 84px;
+  background-color: #eee;
+  width: 95%;
+  margin: 0 auto;
+  box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+
+  &__img{
+    margin-bottom: 64px;
+  }
+  
+  &__form{
+    padding: 64px;
+    padding-left: 64px;
+    background-color: #eee;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+    margin-bottom: 64px;
+    margin-top: 100px;
+  
+    &__group{
+      margin-bottom: 20px; 
+    }
+    &__lable{
+      display: block;
+      margin-bottom: 5px;
+    }
+    &__input,
+    &__textArea{
+  
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    &__textArea{
+      height: 200px;
+    }
+  }
+  &__comment{
+    padding: 64px;
+    padding-left: 116px;
+    background-color: #eee;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+    &__shape{
+      width: 100px;
+      height:100px;
+      // background-color: red;
+      float: left;
+      // -webkit-shape-outside: circle(50% at 50% 50%);
+      // shape-outside: circle(50% at 50% 50%);
+      -webkit-clip-path: circle(50% at 50% 50%);
+      clip-path: circle(50% at 50% 50%);
+     
+    }
+    &__logo{
+      height: 100%;
+    }
+  }
+
+}
