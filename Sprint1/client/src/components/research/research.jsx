@@ -12,7 +12,7 @@ class Research extends Component {
       <div className ='research__group'>
         <label className = 'research__label' htmlFor= 'type'>Search</label>
         <img className='research__img' src={SearchIcon}></img>
-        <input className='research__input' type='text' value= 'search'  name='type' id = 'type'></input>
+        <input className='research__input' type='text' value= 'text'  name='type' id = 'type'></input>
       </div>  
 
 

@@ -7,3 +7,5 @@ router.use(express.json())
 router.get ('/', (req,res)=>{
   res.send(commentData);
 })
+
+module.exports = router;

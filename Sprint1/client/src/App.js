@@ -6,6 +6,7 @@ import MainPage from './components/mainpage/mainpage';
 import Research from './components/research/research';
 import Support from './components/support/support';
 import Type from './components/type/type';
+import CommentsDetail from './components/commentsDetail/commentsDetails';
 
 
 
@@ -20,9 +21,11 @@ function App() {
   return (
     <div className="App">
     <Nav/>   
+    
+
       <BrowserRouter>
         <Switch>
-          <Route path='/' component={MainPage}></Route>           
+          <Route exact path='/' component={MainPage}></Route>           
           <Route path='/research' component={Research}></Route>      
           <Route path='/support' component={Support}></Route>      
           <Route path='/type' component={Type}></Route>       
