@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import {Link} from 'react-router-dom';
 import Show from '../../asset/showCase1.jpg'
 import './showCase.scss'
 import Jesseca from '../../asset/jesseca .jpg'
@@ -16,9 +16,9 @@ class Showcase extends Component {
       <div className="showCase">
  
         <div className="showCase__position">
-          <a href="#" className="showCase__research">Research</a>
-          <a href="#" className="showCase__research showCase__med">Treatment Support</a>
-          <a href="#" className="showCase__research showCase__kind">Information By Type</a>          
+          <Link to='/research' className="showCase__research">Research</Link>
+          <Link to='/support' className="showCase__research showCase__med">Treatment Support</Link>
+          <Link to='/type' className="showCase__research showCase__kind">Information By Type</Link>          
         </div> 
 
         <img className="showCase__img" src={Show} alt=""></img>  

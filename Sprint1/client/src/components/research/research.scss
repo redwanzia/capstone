@@ -47,6 +47,17 @@ margin-bottom: 24px;
     box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
 
   }
+  &__cardBtn{
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    background-color: rgb(194, 227, 230);
+    color: #fff;
+    margin: 32px 0;
+    height: 48px;
+    font-size:16px;
+    
+  }
   &__cardHead, &__cardImg, &__cardBtn{
   margin-bottom: 24px;
 
