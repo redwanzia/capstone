@@ -13,7 +13,7 @@ class Type  extends Component {
         <div className ='type__group'>
           <label className = 'type__label' htmlFor= 'type'>Search</label>
           <img className='type__img' src={SearchIcon}></img>
-          <input className='type__input' type='text' name='type' id = 'type'></input>
+          <input className='type__input' type='text' value= 'search' name='type' id = 'type'></input>
         </div>  
 
 

@@ -12,7 +12,7 @@ class Support  extends Component {
       <div className ='support__group'>
         <label className = 'support__label' htmlFor= 'type'>Search</label>
         <img className='support__img' src={SearchIcon}></img>
-        <input className='support__input' type='text' name='type' id = 'type'></input>
+        <input className='support__input' type='text' value= 'search'  name='type' id = 'type'></input>
       </div>  
 
 
