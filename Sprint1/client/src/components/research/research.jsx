@@ -13,7 +13,9 @@ state = {
 
 onSubmit=(e)=>{
   e.preventDefault();
-  console.log(this.state.text);
+  this.props.searchResearch(this.state.text)
+  this.setState({text: ''})
+  // console.log(this.state.text);
 }
 
 onChange = (e)=>{
