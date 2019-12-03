@@ -18,11 +18,11 @@ class Type  extends Component {
 
 
         <div className='type__cardFlex'>
-                <div className ='type__card'> 
-                  <p className ='type__cardHead'>Brain Cancer</p>
-                  <img className='type__cardImg' src={CardImg}></img>
-                  <button className ='type__cardBtn'>Get Info</button>        
-                </div>
+          <div className ='type__card'> 
+            <p className ='type__cardHead'>Brain Cancer</p>
+            <img className='type__cardImg' src={CardImg}></img>
+            <button className ='support__cardBtn'> <a className= 'support__cardBtn__link' href='#'>Get Info</a> </button>       
+          </div>
 
 
 

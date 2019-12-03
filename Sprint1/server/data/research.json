@@ -2,6 +2,25 @@
   {
     "id" : 1,
     "type": "brain cancer",
+    "img" : "https://cancerres.aacrjournals.org/sites/default/files/highwire/canres/79/23.cover-source.jpg",
+    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
+  },
+  {
+    "id" : 1,
+    "type": "brain cancer",
+    "img": "https://static.wixstatic.com/media/bb242a_f8d4e5f0290f4f3996e2d8dc0f351712.jpg/v1/fill/w_572,h_441,al_c,q_80,usm_0.66_1.00_0.01/bb242a_f8d4e5f0290f4f3996e2d8dc0f351712.webp",
+    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
+  },
+  {
+    "id" : 1,
+    "type": "brain cancer",
+    "img": "https://www.afro.who.int/sites/default/files/2017-06/Screenshot_2017-06-08_14-55-40.png",
+    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
+  },
+  {
+    "id" : 1,
+    "type": "brain cancer",
+    "img" : "https://www.iarc.fr/wp-content/uploads/2018/11/wcr-brochure-small.jpg",
     "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
   }
 ]

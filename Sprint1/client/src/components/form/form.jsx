@@ -24,7 +24,7 @@ class Form  extends Component {
               <label className = 'form__label' htmlFor= 'typeOf'>Story</label>
               <textarea className='form__textArea' name='message' id = 'message'></textarea>
             </div>
-            <button className= 'form__group'  type='submit'>SUBMIT</button>
+            <button className= 'form__group form__btn'  type='submit'>SUBMIT</button>
           </form>
         </div>
         

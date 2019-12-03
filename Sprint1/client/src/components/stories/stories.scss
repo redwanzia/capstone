@@ -6,14 +6,20 @@
   padding-left: 116px;
   background-color: #eee;
   width: 75%;
-  
+  height: 256px;;
   margin: 0 auto;
+  margin-bottom: 72px;
   border-radius: 10px;
   box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
   transform: skew(-12deg);
   & > * {
 
     transform: skew(10deg);
+  }
+  &__story{
+    overflow: hidden;
+    white-space: nowrap;
+
   }
 
   &__img{
@@ -23,7 +29,7 @@
   &__shape{
     width: 100px;
     height:100px;
-    background-color: red;
+    
     float: left;
     // -webkit-shape-outside: circle(50% at 50% 50%);
     // shape-outside: circle(50% at 50% 50%);

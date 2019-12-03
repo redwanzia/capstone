@@ -8,7 +8,7 @@ class Support  extends Component {
   render() { 
     return ( 
       <section className ='support'>
-      <h3 className='support__heading'>Search information By type</h3>
+      <h3 className='support__heading'>Search Treatment Support in Your City </h3>
       <div className ='support__group'>
         <label className = 'support__label' htmlFor= 'type'>Search</label>
         <img className='support__img' src={SearchIcon}></img>
@@ -20,7 +20,7 @@ class Support  extends Component {
               <div className ='support__card'> 
                 <p className ='support__cardHead'>Toronto</p>
                 <img className='support__cardImg' src={cardSupport}></img>
-                <button className ='support__cardBtn'>Get Info</button>        
+                <button className ='support__cardBtn'> <a className= 'support__cardBtn__link' href='#'>Get Info</a> </button>        
               </div>
 
 

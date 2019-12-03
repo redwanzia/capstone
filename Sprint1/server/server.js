@@ -17,22 +17,25 @@ app.listen(port,()=>console.log(`Server ready on port ${port}`));
 
 
 
-const commentRoute = require("./route/commentDetail.js");
-app.use("/type", commentRoute);
+
+
+
+const storiesRoute = require("./route/stories.js");
+app.use("/", storiesRoute);
 
 
 const commentDetailRoute = require("./route/commentDetail.js");
-app.use("/type", commentDetailRoute);
+app.use("/commentDetail", commentDetailRoute);
 
 
 const researchRoute = require("./route/research.js");
 app.use("/research", researchRoute);
 
 const typeRoute = require("./route/type.js");
-app.use("/type", researchRoute);
+app.use("/type", typeRoute);
 
 const supportRoute = require("./route/support.js");
-app.use("/type", supportRoute);
+app.use("/support", supportRoute);
 
 
 
