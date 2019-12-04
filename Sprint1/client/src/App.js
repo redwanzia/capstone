@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter,Route,Switch,Link} from 'react-router-dom';
+import axios from 'axios';
 import Nav from './components/navbar/Navbar'
 
 import MainPage from './components/mainpage/mainpage';
@@ -9,10 +10,18 @@ import Type from './components/type/type';
 import CommentsDetail from './components/commentsDetail/commentsDetails';
 import Research from './components/research/research'
 import './App.scss';
-import ResearchMount from './components/research/researchMount';
+
 
 class App extends React.Component {
   
+  searchResearch = (text) => {
+    axios.get(`http://localhost:5000/research?search= ${text}` ).then((response) => {
+      // console.log(response);
+      this.setState({ researchData: response.data });
+    });
+  }
+  
+
   render() { 
     return ( 
       <div className="App">
@@ -20,8 +29,8 @@ class App extends React.Component {
         <BrowserRouter>
           <Switch>
             <Route exact path='/' exact component={MainPage}></Route>           
-            <Route exact path='/stories/:id' component={CommentsDetail}></Route>           
-            <Route path='/research' component={ResearchMount}></Route>      
+            <Route exact path='/stories/:id' render={(props) => <CommentsDetail {...props}/>}></Route>           
+            <Route path='/research' render={(props) => <Research {...props} searchResearch={this.searchResearch} />} ></Route>      
             <Route path='/support' component={Support}></Route>      
             <Route path='/type' component={Type}></Route>       
           </Switch> 
@@ -30,5 +39,5 @@ class App extends React.Component {
      );
   }
 }
- 
+
 export default App;

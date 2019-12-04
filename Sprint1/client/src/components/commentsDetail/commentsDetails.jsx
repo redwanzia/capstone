@@ -17,6 +17,7 @@ class CommentsDetail extends Component {
   }
 
   render() { 
+    console.log(this.props.match.params.id)
 
     const {name,type,story}= this.state.commentsData;
     return (
@@ -54,7 +55,7 @@ class CommentsDetail extends Component {
         </figure>
           <div className = 'commentsDetail__comment__text' >
             <p className='commentsDetail__comment__name'>Henry</p>            
-            <p className='commentsDetail__comment__story'>Jenna and Brendan Baker were faced with the most difficult challenge of their life when their seemingly healthy two year old son was diagnosed with cancer.  He went to the pediatrician with a fever that was not responding to the normal remedies. A blood test raised the suspicion for cancer and immediately Henry was sent to the Emergency Department at Yale New Haven Children’s Hospital where doctors confirmed his diagnosis.  Acute lymphoblastic leukemia  they were told, which at the time meant nothing more to them than the fact that their son was sick, and they were in for the fight of their lives.</p>
+    <p className='commentsDetail__comment__story'>{this.state.commentsData.story}</p>
           </div>
         </div>
 

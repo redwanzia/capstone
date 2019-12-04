@@ -4,11 +4,31 @@ import  SearchIcon from '../../asset/search-icon.png'
 import  cardResearch from '../../asset/cardResearch-1.jpg'
 import './research.scss'
 
+function ResearchCard(props) {
+  const {type,img,link} = props
+  return(
+    <div className ='research__card'> 
+    <p className ='research__cardHead'>{type}</p>
+    <img className='research__cardImg' src ={img}></img>
+    <button className ='research__cardBtn'> <a className ='research__cardBtn__link'  href={link}>Get info</a> </button>     
+  </div>  
+  );
+}
+
 
 class Research extends Component {
 state = {
 
+  researchData : [],
+
    text:''
+}
+
+componentDidMount() {
+  axios.get('http://localhost:5000/research').then((response) => {
+    // console.log(response);
+    this.setState({ researchData: response.data });
+  });
 }
 
 onSubmit=(e)=>{
@@ -41,7 +61,12 @@ onChange = (e)=>{
           onChange= {this.onChange}
           name='text' 
           id = 'type'></input>
-          <input className = 'research__btn' type= 'submit' value='search' ></input>
+          <input className = 'research__btn' 
+          type= 'submit' 
+          value='search'
+          onSubmit={this.onSubmit} >
+
+          </input>
 
 
         </form>
@@ -55,12 +80,9 @@ onChange = (e)=>{
 
 
       <div className='research__cardFlex'>
-          <div className ='research__card'> 
-            <p className ='research__cardHead'>{this.props.type}</p>
-            <img className='research__cardImg' src={this.props.img}></img>
-            <button className ='research__cardBtn'> <a className ='research__cardBtn__link'  href={this.props.link}>Get info</a> </button>     
-          </div>           
-              
+        {this.state.researchData.map((data)=>{
+          return <ResearchCard type={data.type} img ={data.img} link = {data.link}/>
+        })}
       </div>
       
     </section>

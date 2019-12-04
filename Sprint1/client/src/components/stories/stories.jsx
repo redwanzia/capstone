@@ -1,14 +1,17 @@
 import React, { Component } from 'react'; 
+import {Link} from 'react-router-dom';
 //imrc
 import './stories.scss'
 import  Kaitlin from '../../asset/kaitlin.jpg'
+import axios from "axios"
 
 class Stories extends Component {
 
 
+
   render() { 
     return (  
-      <div className = 'stories'>
+      <Link to={`/stories/${this.props.id}`}  className='stories'>
       <figure className = 'stories__shape'>
       <img className='stories__img' src={this.props.img}/>
      
@@ -18,7 +21,7 @@ class Stories extends Component {
           <p className='stories__type'>{this.props.type}</p>
           <p className='stories__story'>{this.props.story}</p>
         </div>
-      </div>
+      </Link>
     );
   }
 }
