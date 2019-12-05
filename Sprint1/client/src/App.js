@@ -13,14 +13,7 @@ import './App.scss';
 
 
 class App extends React.Component {
-  
-  searchResearch = (text) => {
-    axios.get(`http://localhost:5000/research?search= ${text}` ).then((response) => {
-      // console.log(response);
-      this.setState({ researchData: response.data });
-    });
-  }
-  
+
 
   render() { 
     return ( 
@@ -30,7 +23,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/' exact component={MainPage}></Route>           
             <Route exact path='/stories/:id' render={(props) => <CommentsDetail {...props}/>}></Route>           
-            <Route path='/research' render={(props) => <Research {...props} searchResearch={this.searchResearch} />} ></Route>      
+            <Route path='/research' render={(props) => <Research {...props} />} ></Route>      
             <Route path='/support' component={Support}></Route>      
             <Route path='/type' component={Type}></Route>       
           </Switch> 

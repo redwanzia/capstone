@@ -32,7 +32,8 @@ router.post('/:storyId', (req, res)=>{
     "id" : `Z${newId}`,
     "name" : req.body.name,
     "type" : req.body.type,
-    // "img" : req.body.img,
+    "img" : "https://news.ubc.ca/wp-content/uploads/2018/11/T-Cells-attacking-cancer-cells-Shutterstock.jpg",
+    // "img" : req.body.img, hardcode img
     "story" : req.body.story
   }
 

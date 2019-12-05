@@ -31,9 +31,15 @@ componentDidMount() {
   });
 }
 
+searchResearch = (text) => {
+  axios.get(`http://localhost:5000/research?search=${text}` ).then((response) => {
+    this.setState({ researchData: response.data });
+  });
+}
+
 onSubmit=(e)=>{
   e.preventDefault();
-  this.props.searchResearch(this.state.text)
+  this.searchResearch(this.state.text)
   this.setState({text: ''})
   // console.log(this.state.text);
 }
