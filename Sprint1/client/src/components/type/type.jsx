@@ -1,10 +1,40 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import  SearchIcon from '../../asset/search-icon.png'
 import  CardImg from '../../asset/card-1.jpg'
 import './type.scss'
 
+
+function  TypeCard(props) {
+  const {type,img,link} = props 
+  return(
+
+    <div className ='type__card'> 
+    <p className ='type__cardHead'>{type}</p>
+    <img className='type__cardImg' src={img}></img>
+    <button className ='support__cardBtn'> <a className= 'support__cardBtn__link' href={link}>Get Info</a> </button>       
+  </div> 
+    
+  ) 
+}
+
 class Type  extends Component {
-  state = {  }
+  state = {  
+    typeData:[]
+  }
+
+
+  componentDidMount() {
+    axios.get('http://localhost:5000/type').then((response) => {
+      // console.log(response);
+      this.setState({ typeData: response.data });
+    });
+  }
+
+
+
+
+
   render() { 
     return (
       
@@ -18,36 +48,12 @@ class Type  extends Component {
 
 
         <div className='type__cardFlex'>
-          <div className ='type__card'> 
-            <p className ='type__cardHead'>Brain Cancer</p>
-            <img className='type__cardImg' src={CardImg}></img>
-            <button className ='support__cardBtn'> <a className= 'support__cardBtn__link' href='#'>Get Info</a> </button>       
-          </div>
-
-
-
-
-                <div className ='type__card'> 
-                  <p className ='type__cardHead'>Brain Cancer</p>
-                  <img className='type__cardImg' src={CardImg}></img>
-                  <button className ='type__cardBtn'>Get Info</button>        
-                </div>
-                <div className ='type__card'> 
-                  <p className ='type__cardHead'>Brain Cancer</p>
-                  <img className='type__cardImg' src={CardImg}></img>
-                  <button className ='type__cardBtn'>Get Info</button>        
-                </div>
-                <div className ='type__card'> 
-                <p className ='type__cardHead'>Brain Cancer</p>
-                <img className='type__cardImg' src={CardImg}></img>
-                <button className ='type__cardBtn'>Get Info</button>        
-              </div>
-                
-
-                
+        {this.state.typeData.map((data)=>{
+          return <TypeCard type={data.type} img={data.img} link = {data.link}/>
+        })}               
                 
         </div>
-        
+
       </section>
      );
   }

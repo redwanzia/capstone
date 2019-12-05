@@ -2,6 +2,7 @@
 
 
 .stories{
+  display: block;
   padding: 64px;
   padding-left: 116px;
   background-color: #eee;
@@ -12,6 +13,9 @@
   border-radius: 10px;
   box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
   transform: skew(-12deg);
+  transition: al .8s ease-in;
+  text-decoration: none;
+  color: #777;
   & > * {
 
     transform: skew(10deg);
@@ -37,4 +41,8 @@
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-30px) skew(12deg);
   }
+}
+.background{
+  background: url(../../asset/showCase2.jpg);
+  background-attachment: fixed;
 }
