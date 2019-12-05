@@ -16,7 +16,7 @@ class Showcase extends Component {
       <div className="showCase">
  
         <div className="showCase__position">
-          <Link to='/research' className="showCase__research">Research</Link>
+          <Link to='/research' className="showCase__research">Research1</Link>
           <Link to='/support' className="showCase__research showCase__med">Treatment Support</Link>
           <Link to='/type' className="showCase__research showCase__kind">Information By Type</Link>          
         </div> 

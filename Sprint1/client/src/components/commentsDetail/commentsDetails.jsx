@@ -54,7 +54,7 @@ class CommentsDetail extends Component {
         
         </figure>
           <div className = 'commentsDetail__comment__text' >
-            <p className='commentsDetail__comment__name'>Henry</p>            
+            <p className='commentsDetail__comment__name'>{this.state.commentsData.name}</p>            
     <p className='commentsDetail__comment__story'>{this.state.commentsData.story}</p>
           </div>
         </div>
