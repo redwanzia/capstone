@@ -3,6 +3,7 @@ const app = express();
 const cors = require('cors');
 
 
+
 //middleware
 
 app.use(cors());
@@ -21,7 +22,8 @@ app.listen(5000,()=>console.log(`Server ready on port 5000`));
 
 
 const storiesRoute = require("./route/stories.js");
-app.use("/", storiesRoute);
+// TODO: /stories
+app.use("/stories", storiesRoute);
 
 
 const commentDetailRoute = require("./route/commentDetail.js");
@@ -36,6 +38,9 @@ app.use("/type", typeRoute);
 
 const supportRoute = require("./route/support.js");
 app.use("/support", supportRoute);
+
+// const formRoute = require("./route/form.js");
+// app.use("/support", formRoute);
 
 
 

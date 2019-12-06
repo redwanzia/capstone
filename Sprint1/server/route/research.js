@@ -5,7 +5,7 @@ const researchData = require ('../data/research.json');
 router.use(express.json())
 
 router.get ('/', (req,res)=>{
-  console.log(req.query)
+  return (req.query)
   res.send(researchData);
 })
 

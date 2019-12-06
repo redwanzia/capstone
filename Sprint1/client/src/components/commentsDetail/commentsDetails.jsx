@@ -17,6 +17,7 @@ class CommentsDetail extends Component {
   }
 
   render() { 
+    console.log(this.props.match.params.id)
 
     const {name,type,story}= this.state.commentsData;
     return (
@@ -58,6 +59,15 @@ class CommentsDetail extends Component {
         </section>
 
         
+<<<<<<< HEAD
+=======
+        </figure>
+          <div className = 'commentsDetail__comment__text' >
+            <p className='commentsDetail__comment__name'>{this.state.commentsData.name}</p>            
+    <p className='commentsDetail__comment__story'>{this.state.commentsData.story}</p>
+          </div>
+        </div>
+>>>>>>> a3633e9629f9c7e7586fc0bf638f8b7ae11626ef
 
 
       </div>
