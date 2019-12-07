@@ -1,17 +1,16 @@
 @import '../../styles/Base.scss';
 
-.story{
-  background-image: linear-gradient(rgba(#eec9d2,.8),rgba(#eec9d2,.8)), url(../../asset/background-2.jpg); 
-  
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  &__card{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    // clip-path: polygon(30% 0%, 80% 0%, 100% 100%, 0% 100%);
-  }
-    
-  }
+.story {
+	background-image: linear-gradient(rgba(#eec9d2, .8), rgba(#eec9d2, .8)), url(../../asset/background-2.jpg);
+
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	&__card {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		// clip-path: polygon(30% 0%, 80% 0%, 100% 100%, 0% 100%);
+	}
+}

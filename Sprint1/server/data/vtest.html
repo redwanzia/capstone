@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <img src="../asset/Henry.jpg" alt="">
+  <img src="../asset/jesseca .jpg" alt="">
+  <img src="../asset/kaitlin .jpg" alt="">
+</body>
+</html>
+
+
+
+const researchData =this.state.researchData.map((data)=>{
+  return <Research key={data.id} type={data.type} img={data.img} link={data.link}/>
+})
+
+
+<div>{researchData}</div>
+
+
+
+<img className="showCase__quote__jesseca" src={Jesseca}></img>         
+<img className="showCase__quote__kaitlin" src={Kaitlin} ></img>
+<img className="showCase__quote__henry" src={Henry} ></img>

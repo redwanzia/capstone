@@ -1,184 +1,161 @@
 @import '../../styles/Base.scss';
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Lato:300,400,700i,900&display=swap');
 
+.showCase {
+	width: 100%;
+	margin-bottom: 100px;
+	background-color: $color-gray-light-1;
+	position: relative;
+	// background: url(../../asset/showCase1.jpg) no-repeat center center/cover;
 
-.showCase{
-  width: 100%;
-  margin-bottom: 100px; 
-  background-color: $color-gray-light-1;
-  position: relative;
-  // background: url(../../asset/showCase1.jpg) no-repeat center center/cover;
+	&__img {
+		height: 95vh;
+		width: 100%;
+		opacity: 50%;
+		clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+	}
+	&__shape {
+		position: absolute;
+		top: 200px;
+		left: 100px;
+		z-index: 1000;
+	}
+	&__imgShape {
+		border-radius: 10px;
+		opacity: 100%;
+		width: 450px;
+		height: 350px;
+		box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+		animation-name: moveLeft;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-timing-function: ease-out;
+		// clip-path: polygon(30% 0%, 80% 0%, 100% 100%, 0% 100%);
+	}
 
-  
+	&__imgText {
+		position: absolute;
+		font-size: 16px;
+		color: #323232;
+		text-align: center;
+		top: 250px;
+	}
+	&__span {
+		font-size: 24px;
+		color: $color-background-text;
+		font-weight: 400;
+	}
+	&__position {
+		width: 100%;
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		padding: 0 200px 0 0;
+		z-index: 10;
+	}
 
-  &__img{  
-    height: 95vh;  
-    width: 100%;
-    opacity: 50%;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    
-    
-  }
-  &__shape{
-    position:absolute;
-    top: 200px;
-    left: 100px; 
-    z-index:1000;   
-  }
-  &__imgShape{
-    opacity: 100%;
-    width:450px;
-    height:350px;
-    box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
-    animation-name: moveLeft;
-    animation-duration: 3s;
-    animation-delay: 1s;
-    animation-timing-function: ease-out;
-    // clip-path: polygon(30% 0%, 80% 0%, 100% 100%, 0% 100%);
+	&__research {
+		font-family: "Cinzel", sans-serif;
+		font-size: 32px;
+		font-weight: 400;
+		color: #777;
+		position: relative;
+		top: 100px;
+		text-decoration: none;
+		letter-spacing: 5px;
+		animation-name: moveLeft;
+		animation-duration: 1s;
+		animation-delay: 1s;
+		animation-timing-function: ease-out;
+	}
+	&__med {
+		animation-name: moveRight;
+		animation-duration: 1s;
+		animation-delay: 2s;
+		animation-timing-function: ease-out;
+	}
+	&__kind {
+		animation-name: moveLeft;
+		animation-duration: 1s;
+		animation-delay: 2s;
+		animation-timing-function: ease-out;
+	}
 
-  }
+	&__quote {
+		margin: auto 0;
 
-  &__imgText{
-    position:absolute;
-    font-size: 16px;
-    color :#323232;
-    text-align: center; 
-    top: 250px;
+		background-color: $color-gray-light-1;
+		padding: 250px 0;
 
-  }&__span{
+		&__wrap {
+			display: flex;
+			margin: 0 100px;
+		}
 
-    font-size:24px;
-    color: $color-background-text;
-    font-weight:400;
-  }
-  &__position{
-    width: 100%;
-    position: absolute ;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0 200px 0 0; 
-    z-index: 10;
-  }
+		&__text {
+			width: 50%;
+			font-size: 16px;
+			transition: all .8s;
+			&:hover {
+				transform: translateY(-16px) scale(1.03);
+				font-size: 16px;
+			}
+		}
+		&__composition {
+			// margin: auto 0;
+			position: relative;
+			width: 100%;
+			margin-bottom: 100px;
+			margin: 0 100px;
+			z-index: 10;
+			transition: all .2s;
+		}
 
-  &__research{
-    font-family: "Cinzel",sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-    color: #777; 
-    position: relative;
-    top: 100px;    
-    text-decoration: none;
-    letter-spacing: 5px;
-    animation-name: moveLeft;
-    animation-duration: 1s;
-    animation-delay: 1s;
-    animation-timing-function: ease-out;
-  }
-  &__med{
-   
-    animation-name: moveRight;
-    animation-duration: 1s;
-    animation-delay: 2s;
-    animation-timing-function: ease-out;
-  }
-  &__kind{
+		&__photo {
+		}
+		&__jesseca {
+			position: absolute;
+			left: 0;
+			top: -110px;
+			width: 450px;
+			height: 250px;
+			box-shadow: 32px 10px 30px rgba($color: black, $alpha: .5);
+			transition: all .8s;
+			&:hover {
+				transform: translateY(-24px) scale(1.03);
+				z-index: 100;
+			}
+		}
+		&__henry {
+			position: absolute;
+			right: 50px;
+			top: 10px;
+			width: 450px;
+			height: 250px;
+			box-shadow: 32px 10px 30px rgba($color: black, $alpha: .5);
+			transition: all .8s;
+			&:hover {
+				transform: translateY(-24px) scale(1.03);
+				z-index: 100;
+			}
+		}
+		&__kaitlin {
+			position: absolute;
+			left: -60px;
+			top: 80px;
+			width: 400px;
+			height: 250px;
+			box-shadow: 32px 10px 30px rgba($color: black, $alpha: .5);
+			transition: all .8s;
+			&:hover {
+				transform: translateY(-24px) scale(1.03);
+				z-index: 100;
+			}
 
-    animation-name: moveLeft;
-    animation-duration: 1s;
-    animation-delay: 2s;
-    animation-timing-function: ease-out;
-  }
-
-
-  &__quote{
-    margin: auto 0;     
-       
-    background-color: $color-gray-light-1;
-    padding: 250px 0;
-    margin-top: -20vh;
-
-    &__wrap{
-      display: flex; 
-      margin: 0 100px;
-    }
-    
-    &__text{
-      width: 50%;
-      font-size: 16px;
-      transition: all .8s;
-      &:hover{
-        transform: translateY(-16px) scale(1.03);
-        font-size:16px;
-       
-      }
-      
-    }
-    &__composition{
-      // margin: auto 0; 
-      position: relative;
-      width: 100%;
-      margin-bottom:100px;
-      margin: 0 100px;
-       z-index: 10;  
-       transition: all .2s;
-    }
-
-    &__photo{
-      
-    }
-    &__jesseca{
-      position: absolute;
-      left: 0;
-      top: -20px;
-      width: 50%px;
-      height: 250px;
-      box-shadow:  32px 10px 30px rgba($color: black, $alpha: .5);  
-      transition: all .8s;
-      &:hover{
-        transform: translateY(-24px) scale(1.03);
-        z-index: 100;
-      }
-    }
-     &__henry{
-      position: absolute;
-      right: -60px;
-      top: 100px;
-      width: 50%px;
-      height: 250px;
-      box-shadow: 32px 10px 30px rgba($color: black, $alpha: .5);
-      transition: all .8s;
-      &:hover{
-        transform: translateY(-24px) scale(1.03);
-        z-index: 100;
-      }
-       
-
-     }
-    &__kaitlin{
-      position: absolute;
-      left:-60px;
-      top: 190px;
-      width: 50%;
-      height: 250px;
-      box-shadow: 32px 10px 30px rgba($color: black, $alpha: .5);
-      transition: all .8s;
-      &:hover{
-        transform: translateY(-24px) scale(1.03);
-        z-index: 100;
-      }
-      
-    //   border-radius: 4px;
-    //   bottom: 450px;
-    //   left: -325px;
-   
-     }
-
-  }
-
-
-
-
-
-
+			//   border-radius: 4px;
+			//   bottom: 450px;
+			//   left: -325px;
+		}
+	}
 }
