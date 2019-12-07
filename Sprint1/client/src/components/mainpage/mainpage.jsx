@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Showcase from '../showCase/showCase';
-
+import './mainPage.scss'
 import Stories from '../stories/stories';
 import Form from '../form/form';
+import Quote from '../form/form';
 
 class MainPage  extends Component {
   state = { 
@@ -38,10 +39,13 @@ class MainPage  extends Component {
       return <Stories key={data.id} id={data.id} name={data.name} type={data.type} img={data.img} story={data.story}/>
     }).reverse()   
     return ( 
-      <div> 
-        <Showcase/>
-        {storiesData}        
+      <div className= 'story'> 
+        <Showcase/>   
+        <div className='story__card' >              
+          {storiesData}  
+        </div>           
         <Form storyHandler={this.storyHandler}/>
+        
       </div>
      );
   }

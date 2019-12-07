@@ -6,70 +6,83 @@ import './support.scss'
 
 
 
-function  SupportCard(props) {
-  const {type,img,link} = props 
+function SupportCard(props) {
+  const {type,img,link} = props
   return(
     <div className ='support__card'> 
-      <p className ='support__cardHead'>{type}</p>
-      <img className='support__cardImg' src={img}></img>
-      <button className ='support__cardBtn'> <a className ='support__cardBtn__link'  href={link}>Get info</a> </button>     
-    </div> 
-    
-  ) 
+    <p className ='support__cardHead'>{type}</p>
+    <img className='support__cardImg' src ={img}></img>
+    <button className ='support__cardBtn'> <a className ='support__cardBtn__link'  href={link}>Get info</a> </button>     
+  </div>  
+  );
 }
 
-class Support  extends Component {
-  state = { 
-      supportData : [],
-      text : ''   
-   }
+class Support extends Component {
+state = {
 
+  supportData : [],
 
-   componentDidMount() {
-    axios.get('http://localhost:5000/support').then((response) => {
-      // console.log(response);
-      this.setState({ supportData: response.data });
-    });
-  }
-  onSubmit=(e)=>{
-    e.preventDefault();
-    this.props.searchSupport(this.state.text)
-    this.setState({text: ''})
-    // console.log(this.state.text);
-  }
-  
-  onChange = (e)=>{
-    this.setState({text: e.target.value})
-  }
+   text:''
+}
 
+componentDidMount() {
+  axios.get('http://localhost:5000/support').then((response) => {
+    // console.log(response);
+    this.setState({ supportData: response.data });
+  });
+}
 
+searchSupport = (text) => {
+  axios.get(`http://localhost:5000/support?search=${text}` ).then((response) => {
+    this.setState({ supportData: response.data });
+  });
+}
+
+onSubmit=(e)=>{
+  e.preventDefault();
+  this.searchSupport(this.state.text)
+  this.setState({text: ''})
+  // console.log(this.state.text);
+}
+
+onChange = (e)=>{
+  this.setState({text: e.target.value})
+}
 
   render() { 
+  
     return ( 
-      <section className ='support'>
-      <h3 className='support__heading'>Search Treatment Support in Your City </h3>
+      
+      <section className ='support'>      
+      <h3 className='support__heading'>Search information By type</h3>
       <div className ='support__group'>
-        <label className = 'support__label' htmlFor= 'type'>Search</label>
-        <img className='support__img' src={SearchIcon}></img>
-        <input className='support__input' 
+
+
+        <form onSubmit={this.onSubmit} className= 'support__form'>
+          <label className = 'support__label' htmlFor= 'type'>Search</label>
+          <img className='support__img' src={SearchIcon}></img>
+          <input className='support__input' 
           type='text' 
           value= {this.state.text}  
-          onChange= {this.onChange}  
-          name='type' 
+          onChange= {this.onChange}
+          name='text' 
           id = 'type'></input>
-          <input className = 'research__btn' type= 'submit' value='search' ></input>  
-      </div>  
+          <input className = 'support__btn' 
+          type= 'submit' 
+          value='search'
+          onSubmit={this.onSubmit} >
+          </input>
+        </form>
 
+
+      </div>  
       <div className='support__cardFlex'>
-      {this.state.supportData.map((data)=>{
-        return <SupportCard type={data.type} img={data.img} link = {data.link}/>
-      })}     
-              
+        {this.state.supportData.map((data)=>{
+          return <SupportCard type={data.type} img ={data.img} link = {data.link}/>
+        })}
       </div>
       
     </section>
-
-
      );
   }
 }

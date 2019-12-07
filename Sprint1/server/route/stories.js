@@ -32,7 +32,8 @@ router.post('/:storyId', (req, res)=>{
     "id" : `Z${newId}`,
     "name" : req.body.name,
     "type" : req.body.type,
-    // "img" : req.body.img,
+    "img" : "https://source.unsplash.com/1600x900/?portrait",
+    // "img" : req.body.img, hardcode img
     "story" : req.body.story
   }
 

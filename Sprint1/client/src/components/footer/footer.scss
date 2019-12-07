@@ -1,0 +1,10 @@
+@import '../../styles/Base.scss';
+
+.footer{
+  width: 100%;
+  background-color: $color-gray-light-1;
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  padding: 16px;
+}

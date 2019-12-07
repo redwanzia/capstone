@@ -15,10 +15,6 @@ function ResearchCard(props) {
   );
 }
 
-
-
-
-
 class Research extends Component {
 state = {
 
@@ -34,9 +30,15 @@ componentDidMount() {
   });
 }
 
+searchResearch = (text) => {
+  axios.get(`http://localhost:5000/research?search=${text}` ).then((response) => {
+    this.setState({ researchData: response.data });
+  });
+}
+
 onSubmit=(e)=>{
   e.preventDefault();
-  this.props.searchResearch(this.state.text)
+  this.searchResearch(this.state.text)
   this.setState({text: ''})
   // console.log(this.state.text);
 }
@@ -49,8 +51,7 @@ onChange = (e)=>{
   
     return ( 
       
-      <section className ='research'>
-      
+      <section className ='research'>      
       <h3 className='research__heading'>Search information By type</h3>
       <div className ='research__group'>
 
@@ -64,14 +65,11 @@ onChange = (e)=>{
           onChange= {this.onChange}
           name='text' 
           id = 'type'></input>
-          <input className = 'research__btn' 
+          <input className = 'research__btn btn btn-success btn-lg'   
           type= 'submit' 
           value='search'
           onSubmit={this.onSubmit} >
-
           </input>
-
-
         </form>
 
 

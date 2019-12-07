@@ -3,43 +3,56 @@
 
 .stories{
   display: block;
-  padding: 64px;
-  padding-left: 116px;
-  background-color: #eee;
-  width: 75%;
-  height: 256px;;
+  padding: 32px;
+  // padding-left: 116px;
+  background-color:rgba($color: #eec9e2, $alpha: .5);
+  width:300px;
+  height: 500px;;
   margin: 0 auto;
-  margin-bottom: 72px;
-  border-radius: 10px;
-  box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
-  transform: skew(-12deg);
-  transition: al .8s ease-in;
+  margin-right: 64px;
+  margin-bottom: 64px;
+  // border-radius: 10px;
+  box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);  
+  transition: all .8s;
   text-decoration: none;
-  color: #777;
-  & > * {
+  color: $color-background-text;
 
-    transform: skew(10deg);
+ 
+
+
+  &:hover{
+    transform: translateY(-24px) scale(1.03);
+    transform: roatate(360deg);
   }
+
   &__story{
     overflow: hidden;
-    white-space: nowrap;
+     white-space: nowrap;
 
   }
 
   &__img{
-
-    height: 100%;
+    
+    width: 200px;
+     height: 200px;
+     border-radius: 2%;
+     box-shadow: 32px 10px 50px rgba($color: black, $alpha: .6);
+  }
+  &__text{
+    padding: 32px;
   }
   &__shape{
-    width: 100px;
-    height:100px;
+    margin: auto;
+    width: 200px;
+    height:200px;
     
-    float: left;
+    // float: left;
     // -webkit-shape-outside: circle(50% at 50% 50%);
     // shape-outside: circle(50% at 50% 50%);
-    -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
-    transform: translateX(-30px) skew(12deg);
+    // -webkit-clip-path: circle(50% at 50% 50%);
+    // clip-path: polygon (0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    // transform: translateX(-30px) 
+    //skew(12deg);
   }
 }
 .background{
