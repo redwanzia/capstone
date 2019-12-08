@@ -1,0 +1,34 @@
+.login {
+	padding: 64px;
+	padding-left: 64px;
+	background-color: rgba($color: #323232, $alpha: .5);
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+	margin-top: 100px;
+	color: #fff;
+
+	&__group {
+		margin-bottom: 20px;
+	}
+	&__label {
+		display: block;
+		margin-bottom: 5px;
+	}
+	&__input {
+		width: 50%;
+		padding: 10px;
+		border: 1px solid #ddd;
+	}
+
+	&__btn {
+		border: none;
+		border-radius: 5px;
+		width: 25%;
+		background-color: rgb(183, 208, 240);
+		color: #323232;
+		margin: 32px 0;
+		height: 48px;
+		font-size: 16px;
+	}
+}

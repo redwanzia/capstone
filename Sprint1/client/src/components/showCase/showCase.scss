@@ -1,5 +1,4 @@
 @import '../../styles/Base.scss';
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Lato:300,400,700i,900&display=swap');
 
 .showCase {
 	width: 100%;
@@ -34,8 +33,10 @@
 	}
 
 	&__imgText {
+		font-family: $parisienne-slab;
+		font-weight: 300;
 		position: absolute;
-		font-size: 16px;
+		font-size: 24px;
 		color: #323232;
 		text-align: center;
 		top: 250px;

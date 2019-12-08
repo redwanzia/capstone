@@ -1,61 +1,55 @@
 @import '../../styles/Base.scss';
 
+.stories {
+	display: block;
+	padding: 32px;
+	// padding-left: 116px;
+	background-color: rgba($color: #eec9e2, $alpha: .5);
+	width: 300px;
+	height: 400px;
+	margin: 0 auto;
+	margin-right: 64px;
+	margin-bottom: 64px;
+	// border-radius: 10px;
+	box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+	transition: all .8s;
+	text-decoration: none;
+	color: $color-background-text;
 
-.stories{
-  display: block;
-  padding: 32px;
-  // padding-left: 116px;
-  background-color:rgba($color: #eec9e2, $alpha: .5);
-  width:300px;
-  height: 500px;;
-  margin: 0 auto;
-  margin-right: 64px;
-  margin-bottom: 64px;
-  // border-radius: 10px;
-  box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);  
-  transition: all .8s;
-  text-decoration: none;
-  color: $color-background-text;
+	&:hover {
+		transform: translateY(-24px) scale(1.03);
+		transform: roatate(360deg);
+	}
 
- 
+	&__story {
+		overflow: hidden;
+		white-space: nowrap;
+	}
 
+	&__img {
+		width: 200px;
+		height: 200px;
+		border-radius: 2%;
+		box-shadow: 32px 10px 50px rgba($color: black, $alpha: .6);
+	}
+	&__text {
+		padding: 32px;
+	}
+	&__shape {
+		margin: auto;
+		width: 200px;
+		height: 200px;
 
-  &:hover{
-    transform: translateY(-24px) scale(1.03);
-    transform: roatate(360deg);
-  }
-
-  &__story{
-    overflow: hidden;
-     white-space: nowrap;
-
-  }
-
-  &__img{
-    
-    width: 200px;
-     height: 200px;
-     border-radius: 2%;
-     box-shadow: 32px 10px 50px rgba($color: black, $alpha: .6);
-  }
-  &__text{
-    padding: 32px;
-  }
-  &__shape{
-    margin: auto;
-    width: 200px;
-    height:200px;
-    
-    // float: left;
-    // -webkit-shape-outside: circle(50% at 50% 50%);
-    // shape-outside: circle(50% at 50% 50%);
-    // -webkit-clip-path: circle(50% at 50% 50%);
-    // clip-path: polygon (0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-    // transform: translateX(-30px) 
-    //skew(12deg);
-  }
+		// float: left;
+		// -webkit-shape-outside: circle(50% at 50% 50%);
+		// shape-outside: circle(50% at 50% 50%);
+		// -webkit-clip-path: circle(50% at 50% 50%);
+		// clip-path: polygon (0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+		// transform: translateX(-30px)
+		//skew(12deg);
+	}
 }
-.background{
-  background: url(../../asset/showCase2.jpg);
-  background-attachment: fixed;
+.background {
+	background: url(../../asset/showCase2.jpg);
+	background-attachment: fixed;
 }
