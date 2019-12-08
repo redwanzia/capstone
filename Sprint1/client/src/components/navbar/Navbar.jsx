@@ -7,7 +7,7 @@ class Nav extends Component {
 	state = {};
 	render() {
 		return (
-			<div className='nav'>
+			<div className='nav' id='navbar'>
 				<input className='nav__checkbox' type='checkbox' id='nav-toggle' />
 				<label className='nav__button' htmlFor='nav-toggle'>
 					<span className='nav__icon'>&nbsp;</span>
@@ -17,7 +17,7 @@ class Nav extends Component {
 					<ul className='nav__list'>
 						<li className='nav__item'>
 							{' '}
-							<a href='/login/' className='nav__link'>
+							<a href='#login' className='nav__link'>
 								{' '}
 								Login{' '}
 							</a>{' '}

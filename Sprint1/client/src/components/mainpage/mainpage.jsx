@@ -4,6 +4,7 @@ import Showcase from '../showCase/showCase';
 import './mainPage.scss';
 import Stories from '../stories/stories';
 import Form from '../form/form';
+import Login from '../login/login';
 
 class MainPage extends Component {
 	state = {
@@ -50,6 +51,7 @@ class MainPage extends Component {
 				<Showcase />
 				<div className='story__card'>{storiesData}</div>
 				<Form storyHandler={this.storyHandler} />
+				<Login />
 			</div>
 		);
 	}
