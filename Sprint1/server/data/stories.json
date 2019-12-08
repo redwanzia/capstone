@@ -1,120 +1,80 @@
 [
-  {
-    "id" : "Z1",
-    "name" : "Henry",
-    "type" : "Leukemia",
-    "img": "https://rainbowtrust.org.uk/uploads/other/articles/cost_of_cancer.png",
-    "story" : "Jenna and Brendan Baker were faced with the most difficult challenge of their life when their seemingly healthy two year old son was diagnosed with cancer.  He went to the pediatrician with a fever that was not responding to the normal remedies. A blood test raised the suspicion for cancer and immediately Henry was sent to the Emergency Department at Yale New Haven Children’s Hospital where doctors confirmed his diagnosis.  Acute lymphoblastic leukemia (ALL) they were told, which at the time meant nothing more to them than the fact that their son was sick, and they were in for the fight of their lives.Thankfully, Dr. Gary Kupfer, Professor of Pediatrics (Hematology/Oncology) and of Pathology, and Section Chief of Pediatric Hematology/Oncology, was on call that night, and met with Henry and his parents.  Henry spent 10 days in the hospital, most of which was focused on getting him healthy and strong enough for treatment.",
-    "comments": [
-      {
-        "name" : "Thomas",
-        "comment": "wjdwoidjw"
-      }
-    ]
-  },
-  {
-    "id" : "Z2",
-    "name" : "Kaitlin",
-    "type" : "Brain Cancer",
-    "img":  "https://ysm-res.cloudinary.com/image/upload/c_fill,f_auto,q_auto:best,w_660/v1/websites4/live-prod/cancer/patient/care/stories/kaitlin%20summary_371056_12343_v1.jpg",
-    "story" : "In the summer of 2014, during her last months of pregnancy, Kaitlin Eppinger began experiencing severe headaches and migraines.  Her OBGYN prescribed medication and the headaches gradually went away, but returned soon after the birth of her daughter.  Again, she attributed them to the pregnancy and hormonal changes.  When the headaches persisted, she had blood work done that revealed she had Lyme disease.  She received treatment and started to feel better, but was still not 100%.  Usually a very active person, especially in the summer months, she noticed a lack of energy along with some new symptoms; body tingling and blurred vision that would come and go.  She thought these symptoms might be related to the Lyme disease, but in autumn of that year, her doctor suggested an MRI of her brain just to be safe, which was performed at her local hospital. ",
-    "comments": [
-      {
-        "name" : "Thomas",
-        "comment": "wjdwoidjw"
-      }
-    ]
-  },
-  {
-    "id" : "Z3",
-    "name" : "Jessica",
-    "type" : "Breast Cancer",
-    "img" : "http://www.invisibleillnessweek.com/wp-content/uploads/2019/07/Support-Cancer-Survivor-by-Doing-These-Simple-Ways.jpg",
-    "story" : "Jesseca has had many small non-cancerous lumps  in her breasts, so she was used to going to Smilow Cancer Hospital to be monitored every six months with mammograms and ultrasound tests. When she felt a lump in her left breast in November 2013, she fully expected to be told she had another adenoma. But this time, the radiologist told her something different. She needed a biopsy. Difficult news came back … she had aggressive Stage IIA cancer. Jesseca spent a tortured week worrying before her scheduled appointment with Brigid Killelea, MD, Assistant Professor of Surgery at The Breast Center at Smilow Cancer Hospital.",
-    "comments": [
-      {
-        "name" : "Thomas",
-        "comment": "wjdwoidjw"
-      }
-    ]
-  },
-  {
-    "id" : "Z1",
-    "name" : "Henry",
-    "type" : "Leukemia",
-    "img": "https://rainbowtrust.org.uk/uploads/other/articles/cost_of_cancer.png",
-    "story" : "Jenna and Brendan Baker were faced with the most difficult challenge of their life when their seemingly healthy two year old son was diagnosed with cancer.  He went to the pediatrician with a fever that was not responding to the normal remedies. A blood test raised the suspicion for cancer and immediately Henry was sent to the Emergency Department at Yale New Haven Children’s Hospital where doctors confirmed his diagnosis.  Acute lymphoblastic leukemia (ALL) they were told, which at the time meant nothing more to them than the fact that their son was sick, and they were in for the fight of their lives.Thankfully, Dr. Gary Kupfer, Professor of Pediatrics (Hematology/Oncology) and of Pathology, and Section Chief of Pediatric Hematology/Oncology, was on call that night, and met with Henry and his parents.  Henry spent 10 days in the hospital, most of which was focused on getting him healthy and strong enough for treatment.",
-    "comments": [
-      {
-        "name" : "Thomas",
-        "comment": "wjdwoidjw"
-      }
-    ]
-  },
-  {
-    "id" : "Z1",
-    "name" : "Henry",
-    "type" : "Leukemia",
-    "img": "https://rainbowtrust.org.uk/uploads/other/articles/cost_of_cancer.png",
-    "story" : "Jenna and Brendan Baker were faced with the most difficult challenge of their life when their seemingly healthy two year old son was diagnosed with cancer.  He went to the pediatrician with a fever that was not responding to the normal remedies. A blood test raised the suspicion for cancer and immediately Henry was sent to the Emergency Department at Yale New Haven Children’s Hospital where doctors confirmed his diagnosis.  Acute lymphoblastic leukemia (ALL) they were told, which at the time meant nothing more to them than the fact that their son was sick, and they were in for the fight of their lives.Thankfully, Dr. Gary Kupfer, Professor of Pediatrics (Hematology/Oncology) and of Pathology, and Section Chief of Pediatric Hematology/Oncology, was on call that night, and met with Henry and his parents.  Henry spent 10 days in the hospital, most of which was focused on getting him healthy and strong enough for treatment.",
-    "comments": [
-      {
-        "name" : "Thomas",
-        "comment": "wjdwoidjw"
-      }
-    ]
-  },
-  {
-    "id" : "Z1",
-    "name" : "Henry",
-    "type" : "Leukemia",
-    "img": "https://rainbowtrust.org.uk/uploads/other/articles/cost_of_cancer.png",
-    "story" : "Jenna and Brendan Baker were faced with the most difficult challenge of their life when their seemingly healthy two year old son was diagnosed with cancer.  He went to the pediatrician with a fever that was not responding to the normal remedies. A blood test raised the suspicion for cancer and immediately Henry was sent to the Emergency Department at Yale New Haven Children’s Hospital where doctors confirmed his diagnosis.  Acute lymphoblastic leukemia (ALL) they were told, which at the time meant nothing more to them than the fact that their son was sick, and they were in for the fight of their lives.Thankfully, Dr. Gary Kupfer, Professor of Pediatrics (Hematology/Oncology) and of Pathology, and Section Chief of Pediatric Hematology/Oncology, was on call that night, and met with Henry and his parents.  Henry spent 10 days in the hospital, most of which was focused on getting him healthy and strong enough for treatment.",
-    "comments": [
-      {
-        "name" : "Thomas",
-        "comment": "wjdwoidjw"
-      }
-    ]
-  },
-    {
-    "id" : "Z1",
-    "name" : "Henry",
-    "type" : "Leukemia",
-    "img": "https://rainbowtrust.org.uk/uploads/other/articles/cost_of_cancer.png",
-    "story" : "Jenna and Brendan Baker were faced with the most difficult challenge of their life when their seemingly healthy two year old son was diagnosed with cancer.  He went to the pediatrician with a fever that was not responding to the normal remedies. A blood test raised the suspicion for cancer and immediately Henry was sent to the Emergency Department at Yale New Haven Children’s Hospital where doctors confirmed his diagnosis.  Acute lymphoblastic leukemia (ALL) they were told, which at the time meant nothing more to them than the fact that their son was sick, and they were in for the fight of their lives.Thankfully, Dr. Gary Kupfer, Professor of Pediatrics (Hematology/Oncology) and of Pathology, and Section Chief of Pediatric Hematology/Oncology, was on call that night, and met with Henry and his parents.  Henry spent 10 days in the hospital, most of which was focused on getting him healthy and strong enough for treatment.",
-    "comments": [
-      {
-        "name" : "Thomas",
-        "comment": "wjdwoidjw"
-      }
-    ]
-  },
-    {
-    "id" : "Z1",
-    "name" : "Henry",
-    "type" : "Leukemia",
-    "img": "https://rainbowtrust.org.uk/uploads/other/articles/cost_of_cancer.png",
-    "story" : "Jenna and Brendan Baker were faced with the most difficult challenge of their life when their seemingly healthy two year old son was diagnosed with cancer.  He went to the pediatrician with a fever that was not responding to the normal remedies. A blood test raised the suspicion for cancer and immediately Henry was sent to the Emergency Department at Yale New Haven Children’s Hospital where doctors confirmed his diagnosis.  Acute lymphoblastic leukemia (ALL) they were told, which at the time meant nothing more to them than the fact that their son was sick, and they were in for the fight of their lives.Thankfully, Dr. Gary Kupfer, Professor of Pediatrics (Hematology/Oncology) and of Pathology, and Section Chief of Pediatric Hematology/Oncology, was on call that night, and met with Henry and his parents.  Henry spent 10 days in the hospital, most of which was focused on getting him healthy and strong enough for treatment.",
-    "comments": [
-      {
-        "name" : "Thomas",
-        "comment": "wjdwoidjw"
-      }
-    ]
-  },
-      {
-    "id" : "Z1",
-    "name" : "Henry",
-    "type" : "Leukemia",
-    "img": "https://rainbowtrust.org.uk/uploads/other/articles/cost_of_cancer.png",
-    "story" : "Jenna and Brendan Baker were faced with the most difficult challenge of their life when their seemingly healthy two year old son was diagnosed with cancer.  He went to the pediatrician with a fever that was not responding to the normal remedies. A blood test raised the suspicion for cancer and immediately Henry was sent to the Emergency Department at Yale New Haven Children’s Hospital where doctors confirmed his diagnosis.  Acute lymphoblastic leukemia (ALL) they were told, which at the time meant nothing more to them than the fact that their son was sick, and they were in for the fight of their lives.Thankfully, Dr. Gary Kupfer, Professor of Pediatrics (Hematology/Oncology) and of Pathology, and Section Chief of Pediatric Hematology/Oncology, was on call that night, and met with Henry and his parents.  Henry spent 10 days in the hospital, most of which was focused on getting him healthy and strong enough for treatment.",
-    "comments": [
-      {
-        "name" : "Thomas",
-        "comment": "wjdwoidjw"
-      }
-    ]
-  }
-  
+	{
+		"id": "Z1",
+		"name": "Henry",
+		"type": "Leukemia",
+		"img": "https://rainbowtrust.org.uk/uploads/other/articles/cost_of_cancer.png",
+		"story": "Jenna and Brendan Baker were faced with the most difficult challenge of their life when their seemingly healthy two year old son was diagnosed with cancer.  He went to the pediatrician with a fever that was not responding to the normal remedies. A blood test raised the suspicion for cancer and immediately Henry was sent to the Emergency Department at Yale New Haven Children’s Hospital where doctors confirmed his diagnosis.  Acute lymphoblastic leukemia (ALL) they were told, which at the time meant nothing more to them than the fact that their son was sick, and they were in for the fight of their lives.Thankfully, Dr. Gary Kupfer, Professor of Pediatrics (Hematology/Oncology) and of Pathology, and Section Chief of Pediatric Hematology/Oncology, was on call that night, and met with Henry and his parents.  Henry spent 10 days in the hospital, most of which was focused on getting him healthy and strong enough for treatment. “During Henry’s time in the hospital it was about his care and getting him ready for treatment, but also about educating us on what this all meant.  We didn’t feel lost once we were sent home, which was so important,” said Jenna. “They made sure to fully educate us on what symptoms to watch out for, and how to care for him.  Henry was too young to tell us exactly what he was feeling, so we had to be vigilant, and they gave us the tools to do that.” ALL is a fast-growing cancer of lymphocyte-forming cells called lymphoblasts. Around 80 percent of children are diagnosed with pre B-cell ALL as opposed to T-cell ALL, and the “pre-B” form of ALL is the type Henry was diagnosed with.  Henry’s presenting age, white blood cell count, and leukemia subtype, enabled his eligibility for a clinical trial through the Children’s Oncology Group (COG). The COG enables members of the Yale Pediatric Hematology and Oncology Program to work cooperatively with other academic health centers to conduct large-scale studies.  Because childhood cancer is relatively rare, medical centers must work together to compile enough data. Yale’s participation also ensures access to the newest and best treatments available.“There is a long history of clinical trials in pediatric oncology,” remarked Dr. Kupfer. “It is very different when compared to adult cancer care.  Clinical trials first began with pediatric patients and in 1948 agents given to pediatric patients became the first drugs to induce remission in children with ALL.  We recognize the population is small, and the importance of collaborating with other institutions.” Henry had a central line and port put in for easier blood draw and to avoid any damage to his surrounding tissue during chemotherapy.  Henry’s parents were taught how to handle the port to avoid infection, and Henry received oral chemotherapy at home every day, and intravenously through his central line at the hospital periodically for 40 months. “It was very stressful to have to make the decision to put Henry on a clinical trial,” said Brendan. “When you hear the term childhood cancer you think you have an idea of what you are in for, but we really had no idea. Living close to NYC and Boston, we met with other doctors, but realized that Smilow was a special place.  We were confident that our son was not only getting the best possible medical care, but also the best comprehensive care that included us as a family.”Henry responded very well to the treatment protocol, which was developed to minimize long-term side effects using modified regimens without sacrificing cure. Henry’s parents felt comfortable that a clinical trial was the right thing for their son, not only because of his type of cancer, but also because by participating in a trial some good would come from Henry’s journey and he would have an impact on the future.Jenna and Brendan commented that when your child has cancer it is an incredible stress on every aspect of life.  Henry was going through the treatments, but they took on the mental burden as if they themselves had cancer. Henry has a twin sister and two older sisters that were in 2nd and 5th grade when he was diagnosed.  The Pediatric Hematology and Oncology team partners with psychologists, psychiatrists, social workers, and child life specialists who offer an array of psychosocial services to children receiving cancer care, along with their families. They talked with Henry’s older sisters and explained things in a way they could understand, and answered their questions. Dr. Kupfer explained that a large part of his role is to guide the family through all of the difficult decisions and treatments.  The bond formed goes beyond the typical doctor-patient relationship that he learned about in medical school.  “You are caring for, and hopefully curing their child of a life-threatening illness, and you cannot help but become connected, and this is a very special family.  They rose to the challenge that was put in front of them, despite the normal fears and anxieties that any parent would have.” Now six years old, Henry likes to share his story with others and has even spent time in the classroom with Yale medical students. For him, this has been life up until now. Henry went to school as much as possible, which is always a high priority of Dr. Kupfer’s for his patients. His parents commented that although he does not fully comprehend what he went through right now, some day he will and the courage and strength he showed at such a young age will be fuel for him. “We are still healing as a family a year after his last treatment.  It is a process and will always be a part of our lives.  The effect is widespread and every hug means something different, every puzzle on the floor, every moment spent with my children is precious,” said Brendan. Jenna commented, “It is a part of who Henry is and who he will become. We talk about it as much as he wants, without dwelling on it. We can’t help but think how none of this would have been possible without Dr. Kupfer and his team.  You don’t get the level of care we received just anywhere. It was truly amazing and everyone knew Henry as a little boy, not as a cancer patient. They carried us through the darkest time, and for that we are forever grateful.”   ",
+		"comments": [
+			{
+				"name": "Thomas",
+				"comment": "wjdwoidjw"
+			}
+		]
+	},
+	{
+		"id": "Z2",
+		"name": "Kaitlin",
+		"type": "Brain Cancer",
+		"img": "https://ysm-res.cloudinary.com/image/upload/c_fill,f_auto,q_auto:best,w_660/v1/websites4/live-prod/cancer/patient/care/stories/kaitlin%20summary_371056_12343_v1.jpg",
+		"story": "In the summer of 2014, during her last months of pregnancy, Kaitlin Eppinger began experiencing severe headaches and migraines.  Her OBGYN prescribed medication and the headaches gradually went away, but returned soon after the birth of her daughter.  Again, she attributed them to the pregnancy and hormonal changes.  When the headaches persisted, she had blood work done that revealed she had Lyme disease.  She received treatment and started to feel better, but was still not 100%.  Usually a very active person, especially in the summer months, she noticed a lack of energy along with some new symptoms; body tingling and blurred vision that would come and go.  She thought these symptoms might be related to the Lyme disease, but in autumn of that year, her doctor suggested an MRI of her brain just to be safe, which was performed at her local hospital.Kaitlin had started teaching a new school year in her kindergarten classroom, and was feeling overwhelmed and stressed, when normally a new year brought excitement.  The day after the MRI, she received a phone call at school with her results; she was instructed to call her husband to drive her to the Emergency Department immediately, as a mass the size of an orange had been found in her brain. Doctors explained that the mass was of an irregular shape and size, very large, and located near the middle of her head, near her frontal lobe.  Based on the presentation, they were surprised to see that she was up, walking, talking, and able to work.  She was immediately referred to Dr. Jennifer Moliterno Gunel, a neurosurgeon who specializes in the surgical treatment of brain tumors at Smilow Cancer Hospital. “Upon meeting Dr. Moliterno I could tell she was a very caring person,” said Kaitlin. “She made my family and me feel at ease right away.  I was in shock, so my husband asked most of the questions, but she took the time to listen and make sure we understood everything.  We both felt very comfortable with her.  She put it simply for us, ‘this is something that is not supposed to be there, and we are going to get it out.’ From that point on I trusted her completely.” While reviewing Kaitlin’s MRI, Dr. Moliterno noticed a very small and subtle finding that had previously been overlooked at the outside hospital.  “I was concerned that there was a large, possibly abnormal blood vessel supplying the deep portion of the tumor,” said Dr. Moliterno, “so I ordered a special test called a CT angiogram (CTA) that shoots dye into the blood vessels to be performed before her surgery.” The CTA revealed the tumor to not only have a robust blood supply, but an aneurysm, or a balloon out pouching of one of the main arteries feeding the tumor.  According to Dr. Moliterno, aneurysms of blood vessels supplying tumors are exceptionally uncommon and can be acutely life threatening if not found.    ",
+		"comments": [
+			{
+				"name": "Thomas",
+				"comment": "wjdwoidjw"
+			}
+		]
+	},
+	{
+		"id": "Z3",
+		"name": "Jessica",
+		"type": "Breast Cancer",
+		"img": "http://www.invisibleillnessweek.com/wp-content/uploads/2019/07/Support-Cancer-Survivor-by-Doing-These-Simple-Ways.jpg",
+		"story": "Jesseca has had many small non-cancerous lumps  in her breasts, so she was used to going to Smilow Cancer Hospital to be monitored every six months with mammograms and ultrasound tests. When she felt a lump in her left breast in November 2013, she fully expected to be told she had another adenoma. But this time, the radiologist told her something different. She needed a biopsy. Difficult news came back … she had aggressive Stage IIA cancer. Jesseca spent a tortured week worrying before her scheduled appointment with Brigid Killelea, MD, Assistant Professor of Surgery at The Breast Center at Smilow Cancer Hospital. Jesseca spent a tortured week worrying before her scheduled appointment with Brigid Killelea, MD, Assistant Professor of Surgery at The Breast Center at Smilow Cancer Hospital. “The lump, which was about the size of a quarter when I first felt it, had ‘exploded’ during the week after the biopsy, filling the whole left side of my breast,” recalled Jesseca. “Dr. Killelea told me to stop taking the hormone that had been prescribed to block my endometriosis symptoms. Apparently it was feeding the cancer. Two days later, I saw Dr. Pusztai, an oncologist at Smilow who talked with me about taking part in a clinical trial, in which I would have chemotherapy to shrink the tumor before I had surgery.” Lajos Pusztai, MD, Chief of Breast Medical Oncology and Co-director of the Yale Center Center’s Genetics and Genomics Research Program, is principal investigator of several clinical trials that are studying new drugs and identifying ways to select the best treatment for each patient.“The word ‘trial’ itself makes everybody nervous,” notes Jesseca. “Dr. Pusztai told me the clinical trial would give me a 90 percent chance of the cancer being killed before surgery versus a 60 percent chance if I had the standard treatment, so there was no question in my mind that I should choose the clinical trial. It was a no brainer. Sure there would be side effects. I understood the drugs might cause heart damage, but having this treatment was more important to me. If my cancer got worse, I wouldn’t be here to worry about heart problems.”linical trials are designed to answer questions about new ways to treat cancer and are an option for many cancer patients. Each trial follows a specific protocol, which explains what the trial will do, how the study will be carried out and why each part of the study is necessary. Many of the treatments being used today are the result of past clinical trials. Jesseca started her treatment shortly after. Her protocol called for 12 weekly treatments with chemotherapy drugs, each lasting anywhere from five to ten hours, depending on the number of drugs being used. She suffered side effects – her hair fell out, she had extremely dry skin and rashes, as well as nausea. But she also saw results.“The tumor started shrinking,” said Jesseca, “so I had physical confirmation that the chemo was working. That really helped me. It made me feel like all the suffering was worth it.”Jesseca had a second set of chemotherapy treatments, this time every three weeks for 12 weeks. She suffered more side effects, but the tumor kept shrinking. “I finally couldn’t feel the lump at all, but the doctor told me that all the cancer hadn’t been killed before surgery. In June, I had my lumpectomy, followed by 33 radiation treatments.“Then I was enrolled in another clinical trial as a preventive measure,” said Jesseca. “I was scheduled for a treatment one week out of every three for ten months. I received the first treatment but became extremely ill. Only one other patient had been treated at Yale on this trial and there wasn’t enough data available on what to do for symptoms. So I decided not to continue. But I didn’t want to portray the attitude that I was afraid. I was nervous that the doctors and nurses would be upset with me if I didn’t remain on the trial. Obviously they weren’t. Continuing on the trial just was not right for me at that point. I am presently being treated with Herceptin, which I am scheduled to do through December, to reduce the risk of my cancer coming back.”“The nurses and doctors at Smilow, and the care I received there, have been excellent. The infusion nurses are awesome … I don’t know how they do that work day in and day out. Everybody responded to my phone calls. And the three times I had to go to the emergency room, the staff worked so quickly and made sure I got the treatment I needed,” said Jesseca.Prayer has played an important part in helping Jesseca cope. “In the very beginning right after I was diagnosed,” she noted, “I was told it would be a week and a half before I could get an appointment with a doctor. My stepbrother called me, he was in Jordan, and we prayed together about getting answers more quickly. And I was able to get an earlier appointment with Dr. Killelea. My family always had more faith than me, but this was the first time I had seen prayer result in a physical action. It opened my eyes to the power of prayer, in having the faith to believe. My family lives pretty much all over the country so I’m alone here, except for my husband. I am lucky that I have a husband who is a great support for me. Definitely having my husband’s support has been essential. Even though I’ve learned that I’m a heck of a lot stronger than I thought I was, I wouldn’t have made it without him.” “My advice to other patients is to stay positive. Ignore the petty little day-to-day stuff. Concentrate on today and be thankful for this time, right now, because that’s all you have. Try to find something positive to focus on, whether it’s the bird outside your window or whatever. Live one day or one hour or one minute at a time. It’s hard to do. You have to center your thoughts.”“I also encourage other patients to try clinical trials. I definitely would recommend that they fully listen to what the nurses and the clinical trials people tell them so that they can make the best decision, a decision that’s right for them. I’m very open to doing another clinical trial if I need to,” said Jesseca. “Looking back, I know I asked the right questions and made the right choices along the way.”",
+		"comments": [
+			{
+				"name": "Thomas",
+				"comment": "wjdwoidjw"
+			}
+		]
+	},
+	{
+		"id": "Z4",
+		"name": "Peter",
+		"type": "Bladder Cancer",
+		"img": "https://ysm-res.cloudinary.com/image/upload/c_fill,f_auto,q_auto:best,w_1320/v1/websites4/live-prod/cancer/patient/care/stories/Peter%20Ehmer_308926_12343_v2.png",
+		"story": "As part of a groundbreaking clinical trial, Peter Ehmer, 44, received treatment for his diagnosis of stage III bladder cancer. Prior to this, he had received three months of chemotherapy, had surgery to remove his bladder and prostate and participated in a clinical trial. While on this trial, two of his lymph nodes continued to grow. Dr. Daniel Petrylak, Professor of Medicine and Urology, Clinical Research Leader for the Prostate and Urologic Cancers Program, and Co-Director of the Signal Transduction Program, along with his colleagues, had been looking at an antibody to help patients like Peter with urothelial bladder cancer (UBC). They tested this antibody on 15 patients, including Peter, whose metastatic UBC had not been reduced by chemotherapy, typically the final option for such patients.  This new synthetic “checkpoint blocking” antibody is called MPDL3280 and it targets a protein named PD-L1 (programmed death ligand 1) that is expressed by some patients’ bladder cancers. “We found a very high response rate,” said Dr. Petrylak. “After twelve weeks of treatment, more than half of the patients had at least a 50 percent decline in their tumor measurements. Two patients had complete disappearance of the tumor. One patient had a cancerous lymph node in his neck, which has completely disappeared; this patient had been on three previous chemotherapies. This was the first time we’ve seen this dramatic a response in patients at this stage of the disease. PD-L1 binds to the surface of bladder cancer cells and sends out disinformation that lulls the immune system into shutting down, which allows the cancer cells to proliferate without interference. MPDL3280 prevents PD-L1 from binding to its receptors and thus short-circuits its deceitful signals. The immune system wakes up, detects the cancer cells, and sends T-cells to destroy them. The responses among the patients at Yale were not only dramatic, but also prolonged. The trial was designed to treat the patients every three weeks for up to a year, but that has been extended, explained Dr. Petrylak, “because the patients’ tumors are still responding, and because we really don’t know the optimal duration at this point.” Peter had a CT scan after receiving three treatments of MPDL3280. “Dr. Petrylak called within an hour,” said Peter, “to say that the lymph nodes had not just shrunk but disappeared. I was very emotional. I called my wife right away and shared the news with my two kids when I got home.” Peter also explained that he didn’t experience any harsh side effects either. After having been through a lot of treatment and testing, it was a relief for Peter and his family.  They are so grateful that he had the chance to be a part of this clinical trial, and receive this breakthrough therapy.",
+		"comments": [
+			{
+				"name": "Thomas",
+				"comment": "wjdwoidjw"
+			}
+		]
+	},
+	{
+		"id": "Z5",
+		"name": "Shannon",
+		"type": "Ovarian Cancer",
+		"img": "https://peopledotcom.files.wordpress.com/2016/08/shannon-miller-435-4.jpg?w=435",
+		"story": "As she celebrates five years of being cancer-free, Olympic gold medal-winning gymnast Shannon Miller, an ovarian cancer survivor, is determined to make every day count. “I thank God every day that I’m here,” she tells PEOPLE.During her cancer battle, the seven-time Olympic medalist says there were moments that she was so weak that her goal for the day was simply to walk two laps around her dining room table. Now the 39-year-old mother of two has the joy of chasing her son Rocco, 6, and daughter Sterling, 2, around their yard. “Instead of rushing the kids out the door to get in the car, I’m completely fine with stopping to look at bugs,” she says. Miller is also happy to share her story if it will help other women beat ovarian cancer, the deadliest of the cancers that affect the female reproductive system. According to the American Cancer Society, about 22,280 women in the U.S. will be diagnosed with ovarian cancer this year, and about 14,240 women will die from it. As a survivor, Miller wants women to know: “I was lucky my doctors caught it early. But I don’t want other women to count on luck. It’s important to learn the signs.”Often described as a “silent killer,” ovarian cancer is difficult to diagnose because its symptoms – which include pelvic pain, back pain, bloating, nausea and frequent urination – are easy to overlook. Before Miller’s gynecologist found a baseball-sized cyst on her left ovary in December of 2010, she had been suffering severe stomachaches and bloating and she’d lost six pounds. But she dismissed the discomfort as part of the monthly hassles of her menstrual cycle and figured she was simply shedding more baby weight after giving birth to her son. Miller is hoping to keep other women from making that mistake by encouraging them to visit KnowPelvicMass.com to learn more about ovarian cancer and about a blood test called OVA1 that can help doctors determine if a mass could be cancerous, and if a specialist should perform the surgery to improve a patient’s chance of survival. OVA1 wasn’t available during Miller’s treatment, but she is a spokesperson now for the company that developed the test.Miller, who is married to businessman John Falconetti, also runs her own company, Shannon Miller Lifestyle, and she is looking forward to going to the Olympics in Rio this summer to provide analysis, 20 years after she competed in the games as part of the Magnificent Seven.“These days,” says Miller, “I find I can’t stop smiling. Even when tough things happen, I do my best to find something positive to focus on.”",
+		"comments": [
+			{
+				"name": "Thomas",
+				"comment": "wjdwoidjw"
+			}
+		]
+	},
+	{
+		"id": "Z6",
+		"name": "Dr. Ron ",
+		"type": "Pancreatic cancer ",
+		"img": "https://khn.org/wp-content/uploads/sites/2/2019/06/Naito2_1350.jpg?w=1024",
+		"story": "After nearly 40 years as an internist, Dr. Ron Naito knew what the sky-high results of his blood test meant. And it wasn’t good.But when he turned to his doctors last summer to confirm the dire diagnosis — stage 4 pancreatic cancer — he learned the news in a way no patient should. The first physician, a specialist Naito had known for 10 years, refused to acknowledge the results of the “off-the-scale” blood test that showed unmistakable signs of advanced cancer. “He simply didn’t want to tell me,” Naito said. A second specialist performed a tumor biopsy, and then discussed the results with a medical student outside the open door of the exam room where Naito waited.They walk by one time and I can hear [the doctor] say ‘5 centimeters,’” said Naito. “Then they walk the other way and I can hear him say, ‘Very bad.’”Months later, the shock remained fresh.“I knew what it was,” Naito said last month, his voice thick with emotion. “Once [tumors grow] beyond 3 centimeters, they’re big. It’s a negative sign.”The botched delivery of his grim diagnosis left Naito determined to share one final lesson with future physicians: Be careful how you tell patients they’re dying. Since August, when he calculated he had six months to live, Naito has mentored medical students at Oregon Health & Science University and spoken publicly about the need for doctors to improve the way they break bad news.   “Historically, it’s something we’ve never been taught,” said Naito, thin and bald from the effects of repeated rounds of chemotherapy. “Everyone feels uncomfortable doing it. It’s a very difficult thing.”Robust research shows that doctors are notoriously bad at delivering life-altering news, said Dr. Anthony Back, an oncologist and palliative care expert at the University of Washington in Seattle, who wasn’t surprised that Naito’s diagnosis was poorly handled.“Dr. Naito was given the news in the way that many people receive it,” said Back, who is a co-founder of VitalTalk, one of several organizations that teach doctors to improve their communication skills. “If the system doesn’t work for him, who’s it going to work for?” Up to three-quarters of all patients with serious illness receive news in what researchers call a “suboptimal way,” Back estimated. “’Suboptimal’ is the term that is least offensive to practicing doctors,” he added. The poor delivery of Naito’s diagnosis reflects common practice in a country where Back estimates that more than 200,000 doctors and other providers could benefit from communication training. Too often, doctors avoid such conversations entirely, or they speak to patients using medical jargon. They frequently fail to notice that patients aren’t following the conversation or that they’re too overwhelmed with emotion to absorb the information, Back noted in a recent article.“[Doctors] come in and say, ‘It’s cancer,’ they don’t sit down, they tell you from the doorway, and then they turn around and leave,” he said. That’s because for many doctors, especially those who treat cancer and other challenging diseases, “death is viewed as a failure,” said Dr. Brad Stuart, a palliative care expert and chief medical officer for the Coalition to Transform Advanced Care, or C-TAC. They’ll often continue to prescribe treatment, even if it’s futile, Stuart said. It’s the difference between curing a disease and healing a person physically, emotionally and spiritually, he added.",
+		"comments": [
+			{
+				"name": "Thomas",
+				"comment": "wjdwoidjw"
+			}
+		]
+	}
 ]

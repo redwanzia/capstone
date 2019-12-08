@@ -1,26 +1,26 @@
 [
-  {
-    "id" : "Y1",
-    "type": "Toronto",
-    "img" : "https://www.linkedin.com/media-proxy/ext?w=400&h=400&hash=foeDArw4c0M%2F7adH%2F2LCMrodQiA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R69hAxUwR0v46uTrk6i4UhJUYPOC2-_CHS1uYzENTT2KpSAKuP_9whUK31DxRtkJrP9Ay-wUdDpb8nwLo8u5PjhJJCsMldWJxYmgg",
-    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
-  },
-  {
-    "id" : "Y2",
-    "type": "Montreal",
-    "img": "https://www.linkedin.com/media-proxy/ext?w=400&h=400&hash=foeDArw4c0M%2F7adH%2F2LCMrodQiA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R69hAxUwR0v46uTrk6i4UhJUYPOC2-_CHS1uYzENTT2KpSAKuP_9whUK31DxRtkJrP9Ay-wUdDpb8nwLo8u5PjhJJCsMldWJxYmgg",
-    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
-  },
-  {
-    "id" : "Y3",
-    "type": "vancouver",
-    "img": "https://www.linkedin.com/media-proxy/ext?w=400&h=400&hash=foeDArw4c0M%2F7adH%2F2LCMrodQiA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R69hAxUwR0v46uTrk6i4UhJUYPOC2-_CHS1uYzENTT2KpSAKuP_9whUK31DxRtkJrP9Ay-wUdDpb8nwLo8u5PjhJJCsMldWJxYmgg",
-    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
-  },
-  {
-    "id" : "Y4",
-    "type": "Charlottetown",
-    "img" : "https://www.linkedin.com/media-proxy/ext?w=400&h=400&hash=foeDArw4c0M%2F7adH%2F2LCMrodQiA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R69hAxUwR0v46uTrk6i4UhJUYPOC2-_CHS1uYzENTT2KpSAKuP_9whUK31DxRtkJrP9Ay-wUdDpb8nwLo8u5PjhJJCsMldWJxYmgg",
-    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
-  }
+	{
+		"id": "Y1",
+		"type": "Toronto",
+		"img": "https://www.linkedin.com/media-proxy/ext?w=400&h=400&hash=foeDArw4c0M%2F7adH%2F2LCMrodQiA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R69hAxUwR0v46uTrk6i4UhJUYPOC2-_CHS1uYzENTT2KpSAKuP_9whUK31DxRtkJrP9Ay-wUdDpb8nwLo8u5PjhJJCsMldWJxYmgg",
+		"link": "https://www.torontocentralhealthline.ca/listservices.aspx?id=10314"
+	},
+	{
+		"id": "Y2",
+		"type": "Montreal",
+		"img": "https://fqc.qc.ca/images/Logos%2040%20ans/Logos-siteweb-40--ANG2.png",
+		"link": "https://muhc.ca/cancer/page/building-new-world-class-cancer-centre-montreal"
+	},
+	{
+		"id": "Y3",
+		"type": "Vancouver",
+		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUcMoYwPZiOkkQtfNGNhDpWnWzK9GV0NqOKMANHOr2cmcJ37x4&s",
+		"link": "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
+	},
+	{
+		"id": "Y4",
+		"type": "Charlottetown",
+		"img": "https://www.princeedwardisland.ca/sites/default/files/styles/wetkit_image_quarter/public/embedded_images/bcs.jpg?itok=1KciGYxA",
+		"link": "https://www.princeedwardisland.ca/en/information/health-pei/pei-breast-screening-program"
+	}
 ]

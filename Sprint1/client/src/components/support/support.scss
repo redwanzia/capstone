@@ -1,5 +1,12 @@
+@import '../../styles/Base.scss';
+
 .support {
 	// position: relative;
+	background-image: linear-gradient(rgba(#fff, .9), rgba(#aaa, .7)), url(../../asset/background-5.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	padding: 64px;
 	padding-left: 64px;
 	background-color: #eee;
@@ -54,6 +61,11 @@
 		flex-direction: column;
 		width: 250px;
 		box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+		transition: all .8s;
+		&:hover {
+			transform: translateY(-24px) scale(1.03);
+			// transform: roatate(360deg);
+		}
 	}
 
 	&__cardHead,

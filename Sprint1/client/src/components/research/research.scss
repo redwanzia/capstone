@@ -1,6 +1,6 @@
+@import '../../styles/Base.scss';
 .research {
-	background-image: linear-gradient(rgba(rgb(255, 255, 255), .7), rgba(rgb(235, 227, 227), .7)),
-		url(../../asset/background-4.jpg);
+	background-image: linear-gradient(rgba(#fff, .9), rgba(#aaa, .7)), url(../../asset/background-7.jpg);
 	// position: relative;
 	padding: 64px;
 	padding-left: 64px;
@@ -43,13 +43,18 @@
 		justify-content: space-evenly;
 	}
 	&__card {
-		background: rgba(rgb(212, 191, 191), .2);
+		background: rgba(#fff, .2);
 		padding: 16px;
 		margin-bottom: 32px;
 		display: flex;
 		flex-direction: column;
 		width: 250px;
 		box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+		transition: all .8s;
+		&:hover {
+			transform: translateY(-24px) scale(1.03);
+			// transform: roatate(360deg);
+		}
 	}
 	&__cardHead {
 		color: #323232;

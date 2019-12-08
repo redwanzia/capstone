@@ -6,12 +6,17 @@
 	background-color: $color-gray-light-1;
 	position: relative;
 	// background: url(../../asset/showCase1.jpg) no-repeat center center/cover;
-
+	@include mobile {
+		width: 100%;
+	}
 	&__img {
 		height: 95vh;
 		width: 100%;
 		opacity: 50%;
 		clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+		@include mobile {
+			width: 320px;
+		}
 	}
 	&__shape {
 		position: absolute;
@@ -20,11 +25,11 @@
 		z-index: 1000;
 	}
 	&__imgShape {
-		border-radius: 10px;
+		border-radius: 3px;
 		opacity: 100%;
 		width: 450px;
 		height: 350px;
-		box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+		box-shadow: 32px 25px 25px rgba($color: black, $alpha: .2);
 		animation-name: moveLeft;
 		animation-duration: 3s;
 		animation-delay: 1s;
