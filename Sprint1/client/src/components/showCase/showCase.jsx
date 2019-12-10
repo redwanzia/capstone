@@ -14,7 +14,7 @@ class Showcase extends Component {
 			<div className='showCase'>
 				<figure className='showCase__shape'>
 					<p className='showCase__imgText'>
-						We Survived.. <br />
+						We Survived... <br />
 						<span className='showCase__span'> Cancer</span>
 					</p>
 				</figure>
