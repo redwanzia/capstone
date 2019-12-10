@@ -50,6 +50,7 @@ class MainPage extends Component {
 			<div className='story'>
 				<Showcase />
 				<div className='story__card'>{storiesData}</div>
+
 				<Form storyHandler={this.storyHandler} />
 				<Login />
 			</div>

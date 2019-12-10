@@ -12,9 +12,6 @@ class Footer extends Component {
 	render() {
 		return (
 			<footer className='footer'>
-				<a href='#'>
-					<img className='nav__logo' src={Logo} alt='' />
-				</a>
 				<p className='footer__text'>Copyright &copy; Redwan Zia</p>
 			</footer>
 		);

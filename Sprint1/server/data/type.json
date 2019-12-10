@@ -1,26 +1,38 @@
 [
-  {
-    "id" : "Y1",
-    "type": "Toronto",
-    "img" : "https://www.linkedin.com/media-proxy/ext?w=400&h=400&hash=foeDArw4c0M%2F7adH%2F2LCMrodQiA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R69hAxUwR0v46uTrk6i4UhJUYPOC2-_CHS1uYzENTT2KpSAKuP_9whUK31DxRtkJrP9Ay-wUdDpb8nwLo8u5PjhJJCsMldWJxYmgg",
-    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
-  },
-  {
-    "id" : "Y2",
-    "type": "Montreal",
-    "img": "https://www.linkedin.com/media-proxy/ext?w=400&h=400&hash=foeDArw4c0M%2F7adH%2F2LCMrodQiA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R69hAxUwR0v46uTrk6i4UhJUYPOC2-_CHS1uYzENTT2KpSAKuP_9whUK31DxRtkJrP9Ay-wUdDpb8nwLo8u5PjhJJCsMldWJxYmgg",
-    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
-  },
-  {
-    "id" : "Y3",
-    "type": "vancouver",
-    "img": "https://www.linkedin.com/media-proxy/ext?w=400&h=400&hash=foeDArw4c0M%2F7adH%2F2LCMrodQiA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R69hAxUwR0v46uTrk6i4UhJUYPOC2-_CHS1uYzENTT2KpSAKuP_9whUK31DxRtkJrP9Ay-wUdDpb8nwLo8u5PjhJJCsMldWJxYmgg",
-    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
-  },
-  {
-    "id" : "Y4",
-    "type": "Charlottetown",
-    "img" : "https://www.linkedin.com/media-proxy/ext?w=400&h=400&hash=foeDArw4c0M%2F7adH%2F2LCMrodQiA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R69hAxUwR0v46uTrk6i4UhJUYPOC2-_CHS1uYzENTT2KpSAKuP_9whUK31DxRtkJrP9Ay-wUdDpb8nwLo8u5PjhJJCsMldWJxYmgg",
-    "link":  "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
-  }
+	{
+		"id": "Y1",
+		"type": "Bladder Cancer",
+		"img": "https://images.emedicinehealth.com/images/slideshow/emss-topper/cancer.jpg",
+		"link": "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
+	},
+	{
+		"id": "Y2",
+		"type": "Cervical Cancer",
+		"img": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-us.s3.amazonaws.com%2F689effe2-cdb7-11e9-b018-ca4456540ea6?fit=scale-down&source=next&width=700",
+		"link": "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
+	},
+	{
+		"id": "Y3",
+		"type": "Ovarian Cancer",
+		"img": "https://www.cancertherapyadvisor.com/wp-content/uploads/sites/12/2019/10/vte_G_724234021.jpg",
+		"link": "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
+	},
+	{
+		"id": "Y4",
+		"type": "Pancreatic Cancer",
+		"img": "https://scx1.b-cdn.net/csz/news/800/2019/cancercells.jpg",
+		"link": "https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084"
+	},
+	{
+		"id": "Y5",
+		"type": "Breast Cancer",
+		"img": "https://dp9bxf2pat5uz.cloudfront.net/wp-content/uploads/breast-cancer-5.jpg",
+		"link": "https://cdn.technologynetworks.com/ac/images/thumbnails/rectangle/preclinical-study-on-antitumor-effects-of-cannabis-compounds-posts-positive-results-299292.png"
+	},
+	{
+		"id": "Y6",
+		"type": "Lung Cancer",
+		"img": "https://imagenes.heraldo.es/files/image_990_v1/uploads/imagenes/2018/11/27/_annewestonfranciscrickinstitutelungcancercellsdividing_fb7af040.jpg",
+		"link": "https://cdn.technologynetworks.com/ac/images/thumbnails/rectangle/preclinical-study-on-antitumor-effects-of-cannabis-compounds-posts-positive-results-299292.png"
+	}
 ]
