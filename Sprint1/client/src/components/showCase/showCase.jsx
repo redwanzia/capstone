@@ -13,10 +13,9 @@ class Showcase extends Component {
 		return (
 			<div className='showCase'>
 				<figure className='showCase__shape'>
-					<img className='showCase__imgShape' src={main} />
 					<p className='showCase__imgText'>
-						“Cancer is just a <span className='showCase__span'>chapter</span> in our lives and not the{' '}
-						<span className='showCase__span'>whole story</span>.”
+						We Survived.. <br />
+						<span className='showCase__span'> Cancer</span>
 					</p>
 				</figure>
 
@@ -43,8 +42,8 @@ class Showcase extends Component {
 						</p>
 						<div className='showCase__quote__composition'>
 							<img className='showCase__quote__jesseca' src={Jesseca} />
-							<img className='showCase__quote__henry' src={Henry} />
 							<img className='showCase__quote__kaitlin' src={Kaitlin} />
+							<img className='showCase__quote__henry' src={Henry} />
 						</div>
 					</div>
 				</div>

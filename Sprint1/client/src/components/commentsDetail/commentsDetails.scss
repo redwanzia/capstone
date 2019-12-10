@@ -1,3 +1,4 @@
+@import '../../styles/Base.scss';
 .commentsDetail {
 	padding: 64px;
 	padding-left: 84px;
@@ -5,10 +6,20 @@
 	width: 95%;
 	margin: 0 auto;
 	box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
+	@include mobile {
+		width: 100%;
+		padding: 0;
+	}
 
 	&__img {
 		width: 100%;
 		margin-bottom: 64px;
+	}
+	&__story {
+		@include mobile {
+			width: 100%;
+			padding: 0;
+		}
 	}
 
 	&__form {

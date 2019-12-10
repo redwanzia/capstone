@@ -8,16 +8,28 @@
 	width: 80%;
 	margin: 0 auto;
 	box-shadow: 32px 10px 50px rgba($color: black, $alpha: .2);
-
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin-top: 100px;
+	@include mobile {
+		margin: 0 auto;
+		padding: 0;
+		margin-bottom: 16px;
+	}
+	@include tablet {
+		margin: 0 auto;
+		padding: 0;
+		margin-bottom: 16px;
+	}
 
 	&__group {
 		margin-bottom: 72px;
 		display: flex;
+		@include tablet {
+			margin-left: 16px;
+		}
 	}
 	&__heading {
 		color: #323232;

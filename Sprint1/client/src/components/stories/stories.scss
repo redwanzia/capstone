@@ -15,6 +15,13 @@
 	transition: all .8s;
 	text-decoration: none;
 	color: $color-background-text;
+	@include mobile {
+		width: 80%;
+		height: 60%;
+		margin: 0 auto;
+		margin-bottom: 16px;
+		margin-left: 32px;
+	}
 
 	&:hover {
 		transform: translateY(-24px) scale(1.03);
@@ -30,7 +37,11 @@
 		width: 200px;
 		height: 200px;
 		border-radius: 2%;
-		box-shadow: 32px 10px 50px rgba($color: black, $alpha: .6);
+		box-shadow: 10px 20px 15px rgba($color: black, $alpha: .6);
+		@include mobile {
+			width: 80%;
+			height: 80%;
+		}
 	}
 	&__text {
 		padding: 32px;

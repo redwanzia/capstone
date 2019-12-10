@@ -6,51 +6,85 @@
 	background-color: $color-gray-light-1;
 	position: relative;
 	// background: url(../../asset/showCase1.jpg) no-repeat center center/cover;
-	@include mobile {
-		width: 100%;
-	}
+
 	&__img {
 		height: 95vh;
 		width: 100%;
 		opacity: 50%;
 		clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
 		@include mobile {
-			width: 320px;
+			height: 60vh;
 		}
 	}
 	&__shape {
-		position: absolute;
-		top: 200px;
-		left: 100px;
+		position: relative;
+		top: 0px;
+		left: 0px;
 		z-index: 1000;
-	}
-	&__imgShape {
-		border-radius: 3px;
-		opacity: 100%;
-		width: 450px;
-		height: 350px;
-		box-shadow: 32px 25px 25px rgba($color: black, $alpha: .2);
-		animation-name: moveLeft;
-		animation-duration: 3s;
-		animation-delay: 1s;
-		animation-timing-function: ease-out;
-		// clip-path: polygon(30% 0%, 80% 0%, 100% 100%, 0% 100%);
 	}
 
 	&__imgText {
-		font-family: $sedgwick-slab;
+		margin: 0;
+		display: inline-block;
+		width: 70%;
+		font-family: "Tangerine", sans-serif;
 		font-weight: 300;
 		position: absolute;
-		font-size: 16px;
+		top: 300px;
+		right: 550px;
+		font-size: 110px;
+		letter-spacing: 2px;
 		color: #323232;
 		text-align: center;
-		top: 250px;
+		animation-name: moveRight;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-timing-function: ease-out;
+
+		@include mobile {
+			top: 225px;
+			font-size: 32px;
+			right: 100px;
+		}
+		@include tablet {
+			font-size: 48px;
+			top: 300px;
+			right: 250px;
+		}
 	}
 	&__span {
-		font-size: 24px;
+		font-size: 40px;
 		color: $color-background-text;
-		font-weight: 400;
+		font-family: "Reenie Beanie", sans-serif;
+		// @include mobile {
+		// 	padding: 100px;
+		// }
 	}
+	// &__imgShape {
+	// 	border-radius: 3px;
+	// 	opacity: 100%;
+	// 	width: 450px;
+	// 	height: 350px;
+	// 	box-shadow: 32px 25px 25px rgba($color: black, $alpha: .2);
+	// 	animation-name: moveLeft;
+	// 	animation-duration: 3s;
+	// 	animation-delay: 1s;
+	// 	animation-timing-function: ease-out;
+	// 	// clip-path: polygon(30% 0%, 80% 0%, 100% 100%, 0% 100%);
+	// 	@include mobile {
+	// 		// display: none;
+	// 		position: absolute;
+	// 		width: 250px;
+	// 		height: 150px;
+	// 		top: 20px;
+	// 		left: -80px;
+	// 	}
+	// 	@include tablet {
+	// 		height: 60vh;
+	// 	}
+	// }
+
 	&__position {
 		width: 100%;
 		position: absolute;
@@ -59,13 +93,17 @@
 		align-items: flex-end;
 		padding: 0 200px 0 0;
 		z-index: 10;
+		@include mobile {
+			top: 0;
+			right: 0;
+		}
 	}
 
 	&__research {
 		font-family: "Cinzel", sans-serif;
 		font-size: 32px;
 		font-weight: 400;
-		color: #777;
+		color: #111;
 		position: relative;
 		top: 100px;
 		text-decoration: none;
@@ -74,6 +112,15 @@
 		animation-duration: 1s;
 		animation-delay: 1s;
 		animation-timing-function: ease-out;
+		@include mobile {
+			font-size: 16px;
+			top: 60px;
+			left: 170px;
+		}
+		@include tablet {
+			top: 60px;
+			left: 170px;
+		}
 	}
 	&__med {
 		animation-name: moveRight;
@@ -90,13 +137,24 @@
 
 	&__quote {
 		margin: auto 0;
-
 		background-color: $color-gray-light-1;
 		padding: 250px 0;
+		@include mobile {
+			padding: 50px 0;
+		}
+		@include tablet {
+			padding: 80px 0;
+		}
 
 		&__wrap {
 			display: flex;
 			margin: 0 100px;
+			@include mobile {
+				margin: 0;
+			}
+			@include tablet {
+				display: block;
+			}
 		}
 
 		&__text {
@@ -107,6 +165,13 @@
 				transform: translateY(-16px) scale(1.03);
 				font-size: 16px;
 			}
+			@include mobile {
+				width: 100%;
+			}
+			@include tablet {
+				width: 100%;
+				margin: 0;
+			}
 		}
 		&__composition {
 			// margin: auto 0;
@@ -116,6 +181,16 @@
 			margin: 0 100px;
 			z-index: 10;
 			transition: all .2s;
+			@include mobile {
+				display: none;
+			}
+			@include tablet {
+				display: none;
+				width: 50%;
+				// height: 225px;
+				left: 250px;
+				top: -150px;
+			}
 		}
 
 		&__photo {
@@ -132,6 +207,12 @@
 				transform: translateY(-24px) scale(1.03);
 				z-index: 100;
 			}
+			@include tablet {
+				width: 50%;
+				// height: 125px;
+				left: 280px;
+				top: -80px;
+			}
 		}
 		&__henry {
 			position: absolute;
@@ -145,6 +226,12 @@
 				transform: translateY(-24px) scale(1.03);
 				z-index: 100;
 			}
+			@include tablet {
+				width: 50%;
+				// height: 225px;
+				left: 250px;
+				top: -150px;
+			}
 		}
 		&__kaitlin {
 			position: absolute;
@@ -157,6 +244,13 @@
 			&:hover {
 				transform: translateY(-24px) scale(1.03);
 				z-index: 100;
+			}
+			@include tablet {
+				// display: none;
+				width: 50%;
+				// height: 125px;
+				left: 220px;
+				top: -30px;
 			}
 
 			//   border-radius: 4px;
